@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Eleanor A. Power
+### Assistant Professor, [Department of Methodology](http://www.lse.ac.uk/methodology), [London School of Economics & Political Science](https://www.lse.ac.uk/)
 
-You can use the [editor on GitHub](https://github.com/eapower/eapower.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am an anthropologist studying how religious belief, practice, and identity interact with and shape interpersonal relationships. I look at how people work to discern something of the character, moral being, and intentions of their peers through their actions – particularly their religious action. And, I look at how people strive to communicate something of themselves to others, both in dramatic and in subtle ways. I want to know how such actions and reactions form the basis not only of people’s perceptions of one another, but also form the substance of their relationships and the emergent structure of their social world. When such bonds are crucial to our ability to navigate and get by in the world, this ultimately is an investigation into how people’s religious lives shape their social and economic lives as well.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I do this with a combination of qualitative and quantitative methods, primary among which is social network analysis. My work is informed by signaling theory and the wider scholarship of human behavioral ecology. I am interested in the dynamics of social networks, especially relative to the factors that influence cooperation, competition, trust, and prestige. More generally, I am interested in investigating questions regarding: the role of religion in society, the interaction between costly signaling and cooperation, gender differences in prestige and social status, and the dynamics of punishment.
 
-### Markdown
+On this GitHub page, I've got some code associated with various publications. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eapower/eapower.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+See more at my [departmental](http://www.lse.ac.uk/Methodology/People/Academic-Staff/Eleanor-Power/Eleanor-Power) and [personal](http://tuvalu.santafe.edu/~epower/Eleanor_Power.html) websites.
