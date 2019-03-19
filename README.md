@@ -7,6 +7,7 @@ I do this with a combination of qualitative and quantitative methods, primary am
 
 See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Academic-Staff/Eleanor-Power/Eleanor-Power).
 
+---------------------
 
 ### Publications
 
@@ -44,6 +45,7 @@ See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Ac
 
 * 2005\. Robert J. Losey and **Eleanor A. Power**. Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample. *Journal of Northwest Anthropology* 39(1): 1-20.
 
+---------------------
 
 ### Code
 
@@ -57,6 +59,8 @@ See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Ac
 
 * [ERGM predictions and GWESP](https://eehh-stanford.github.io/SNA-workshop/ergm-predictions.html)
 
+---------------------
+
 ### Teaching
 
 * MY401. [Research Design for Studies in Digital Innovation](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY401.htm)
@@ -67,6 +71,7 @@ See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Ac
 
 * MY461. [Social Network Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY461.htm)
 
+---------------------
 
 ### Details
 
