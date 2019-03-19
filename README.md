@@ -17,7 +17,7 @@ See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Ac
 
 * 2018\. **Eleanor A. Power** and Elspeth Ready. [Building Bigness: Reputation, Prominence, and Social Capital in Rural South India](https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1111/aman.13100). *American Anthropologist*. 120(3), 444-459. [Code](https://github.com/eapower/BuildingBigness).
 
-* 2018\. **Eleanor A. Power**. [Collective Ritual and Social Support Networks in Rural South India](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2018.0023). *Proceedings of the Royal Academy B: Biological Sciences*. 285(1879):20180023. [Code](https://github.com/eapower/CollectiveRitual).
+* 2018\. **Eleanor A. Power**. [Collective Ritual and Social Support Networks in Rural South India](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2018.0023). *Proceedings of the Royal Society B: Biological Sciences*. 285(1879):20180023. [Code](https://github.com/eapower/CollectiveRitual).
 
 * 2018\. Rebecca Bliege Bird, Elspeth Ready, and **Eleanor A. Power**. [The Social Significance of Subtle Signals](https://doi.org/10.1038/s41562-018-0298-3). *Nature Human Behaviour* (2): 1–6.
 
