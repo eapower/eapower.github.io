@@ -1,6 +1,6 @@
 ## Eleanor A. Power
 
-![](https://github.com/eapower/eapower.github.io/blob/master/pierced.jpg) 
+![](/pierced.jpg) 
 
 #### Assistant Professor, [Department of Methodology](http://www.lse.ac.uk/methodology), [London School of Economics & Political Science](https://www.lse.ac.uk/)
 
