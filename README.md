@@ -83,4 +83,4 @@ e.a.power [at] lse.ac.uk
 
 [ORCID](https://orcid.org/0000-0002-3064-2050)
 
-[Link to CV](https://github.com/eapower/eapower.github.io/blob/master/EPower_CV.pdf)
+[CV](https://github.com/eapower/eapower.github.io/blob/master/EPower_CV.pdf)
