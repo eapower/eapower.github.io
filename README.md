@@ -1,4 +1,3 @@
-## Eleanor A. Power
 
 ![](/pierced.jpg) 
 
