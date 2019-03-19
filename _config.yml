@@ -1,8 +1,20 @@
-theme: minima
 title: Eleanor A. Power
-description: Eleanor A. Power's website
-about: Asst Prof, Methodology, LSE
+author: Eleanor A. Power
+email: e.a.power@lse.ac.uk
+description: > # this means to ignore newlines until "show_exerpts:"
+  This is the personal website for Eleanor A. Power, with basic information on research interests, publications, and code.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
   social_links:
     twitter: eleanorapower
-    github: eapower
+    github:  eapower
+    
+
+# Build settings
+theme: minima
