@@ -77,4 +77,10 @@ London, WC2A 2AE
 
 e.a.power [at] lse.ac.uk
 
+[@eleanorapower](https://twitter.com/eleanorapower)
+
+[Google Scholar](https://scholar.google.com/citations?user=1eWtkAQAAAAJ&hl=en&oi=ao)
+
+[ORCID](https://orcid.org/0000-0002-3064-2050)
+
 [Link to CV](https://github.com/eapower/eapower.github.io/blob/master/EPower_CV.pdf)
