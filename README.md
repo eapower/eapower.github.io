@@ -1,3 +1,8 @@
+---
+title: "Eleanor A. Power"
+output: html_document
+---
+
 
 #### Assistant Professor, [Department of Methodology](http://www.lse.ac.uk/methodology), [London School of Economics & Political Science](https://www.lse.ac.uk/)
 
@@ -10,54 +15,78 @@ See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Ac
 ---------------------
 
 ### Publications
+```{r, message=FALSE,echo=FALSE,warning=FALSE}
+vis.nodes<-read.csv("nodes.csv",header=TRUE)
+vis.edges<-read.csv("edges.csv",header=TRUE)
+require(visNetwork)
+visNetwork(vis.nodes,vis.edges)
+```
 
-* Accepted. **Eleanor A. Power** and Elspeth Ready. Cooperation beyond consanguinity:  Post-marital residence, delineations of kin, and social support among South Indian Tamils. *Philosophical Transactions of the Royal Society B: Biological Sciences*. [Code](https://github.com/eapower/Kinship).
+* 2019\. Andrew Berdahl, Christa Brelsford, Caterina De Bacco, Marion Dumas, Vanessa Ferdinand, Joshua A. Grochow, Laurent Hébert-Dufresne, Yoav Kallus, Christopher P. Kempes, Artemy Kolchinsky, Daniel B. Larremore, Eric Libby, **Eleanor A. Power**, Caitlin A. Stern, Brendan Tracey. [Dynamics of Beneficial Epidemics](https://www.nature.com/articles/s41598-019-50039-w). *Scientific Reports*. 9(1):15093. (More about this paper and the "72 Hours of Science" process [here](https://arxiv.org/abs/1604.02096) and [here](https://gizmodo.com/when-things-go-viral-and-everybody-wins-1769950969)).
 
-* 2019\. Jessica Barker\*, **Eleanor A. Power**\*, Stephen Heap, Mikael Puurtinen and Richard Sosis. [Content, Cost, and Context: A Framework for Understanding Human Signaling Systems](https://onlinelibrary.wiley.com/doi/10.1002/evan.21768). *Evolutionary Anthropology*. (\*: co-first authors)
+* 2019\. Jeremy Koster, Dieter Lukas, David Nolin, **Eleanor A. Power**, Alexandra Alvergne, Ruth Mace, Cody T. Ross, Karen Kramer, Russell Greaves, Mark Caudell, Shane MacFarlan, Eric Schniter, Robert Quinlan, Siobhan Mattison, Adam Reynolds, Chun Yi-Sum, and Eric Massengill. [Kinship Ties Across the Lifespan in Human Communities](https://royalsocietypublishing.org/doi/10.1098/rstb.2018.0069). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 374(1780):20180069.
 
-* 2018\. **Eleanor A. Power** and Elspeth Ready. [Building Bigness: Reputation, Prominence, and Social Capital in Rural South India](https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1111/aman.13100). *American Anthropologist*. 120(3), 444-459. [Code](https://github.com/eapower/BuildingBigness).
+* 2019\. **Eleanor A. Power** and Elspeth Ready. [Cooperation Beyond Consanguinity:  Post-Marital Residence, Delineations of Kin, and Social Support Among South Indian Tamils](https://royalsocietypublishing.org/doi/10.1098/rstb.2018.0070). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 374(1780):20180070. [Code](https://github.com/eapower/Kinship).
+
+* 2019\. Jessica Barker\*, **Eleanor A. Power**\*, Stephen Heap, Mikael Puurtinen and Richard Sosis. [Content, Cost, and Context: A Framework for Understanding Human Signaling Systems](https://onlinelibrary.wiley.com/doi/10.1002/evan.21768). *Evolutionary Anthropology*. 28(2):86-99. (\*: co-first authors)
+
+* 2018\. **Eleanor A. Power** and Elspeth Ready. [Building Bigness: Reputation, Prominence, and Social Capital in Rural South India](https://anthrosource.onlinelibrary.wiley.com/doi/full/10.1111/aman.13100). *American Anthropologist*. 120(3):444-459. [Code](https://github.com/eapower/BuildingBigness).
 
 * 2018\. **Eleanor A. Power**. [Collective Ritual and Social Support Networks in Rural South India](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2018.0023). *Proceedings of the Royal Society B: Biological Sciences*. 285(1879):20180023. [Code](https://github.com/eapower/CollectiveRitual).
 
-* 2018\. Rebecca Bliege Bird, Elspeth Ready, and **Eleanor A. Power**. [The Social Significance of Subtle Signals](https://doi.org/10.1038/s41562-018-0298-3). *Nature Human Behaviour* (2): 1–6.
+* 2018\. Rebecca Bliege Bird, Elspeth Ready, and **Eleanor A. Power**. [The Social Significance of Subtle Signals](https://doi.org/10.1038/s41562-018-0298-3). *Nature Human Behaviour*. (2): 1-6.
 
-* 2018\. Elspeth Ready and **Eleanor A. Power**. [Why Wage-Earners Hunt. Food Sharing, Social Structure and Influence in an Arctic Mixed Ecology](http://doi.org/10.1086/696018) *Current Anthropology* 59 (1): 74-97.
+* 2018\. Elspeth Ready and **Eleanor A. Power**. [Why Wage-Earners Hunt. Food Sharing, Social Structure and Influence in an Arctic Mixed Ecology](http://doi.org/10.1086/696018). *Current Anthropology*. 59(1):74-97.
 
 * 2018\. **Eleanor A. Power**. Invited Article Commentary: [*Praxis* and *Doxa*: What a Focus on Ritual Can Offer Evolutionary Explanations of Religion](https://www.tandfonline.com/doi/full/10.1080/2153599X.2017.1323786). *Religion, Brain and Behavior*. 8(4):434-436.
 
-* 2017\. Caterina De Bacco, **Eleanor A. Power**, Daniel Larremore, and Cris Moore. [Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.042317). *Physical Review E*. 95(4): 042317. 
+* 2017\. Caterina De Bacco, **Eleanor A. Power**, Daniel Larremore, and Cris Moore. [Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.042317). *Physical Review E*. 95(4):042317. 
 
 * 2017\. **Eleanor A. Power**. [Social Support Networks and Religiosity in Rural South India](https://www.nature.com/articles/s41562-017-0057).  *Nature Human Behaviour*. 1:0057. [Code](https://github.com/eapower/NatHumBehavCode).
 
-* 2017\. **Eleanor A. Power**. [Discerning Devotion: Testing the Signaling Theory of Religion](https://www.sciencedirect.com/science/article/pii/S1090513816300472). *Evolution and Human Behavior*. 38(1): 82-91.
+* 2017\. **Eleanor A. Power**. [Discerning Devotion: Testing the Signaling Theory of Religion](https://www.sciencedirect.com/science/article/pii/S1090513816300472). *Evolution and Human Behavior*. 38(1):82-91.
 
 * 2017\. **Eleanor A. Power**. [The Roman-Byzantine Baths Adjacent to the Great Temple](http://www.oxbowbooks.com/oxbow/petra-great-temple-volume-3.html). *Petra Great Temple Volume 3: Brown University Excavations 1993-2008, Architecture and Material Culture*. Oxbow Press, Philadelphia, PA. 188-202. 
 
-* 2016\. **Eleanor A. Power**. Invited Article Commentary: [The Primacy of Social Support](https://www.tandfonline.com/doi/full/10.1080/2153599X.2016.1156560). *Religion, Brain and Behavior*. 7(3): 255-258.
+* 2016\. **Eleanor A. Power**. Invited Article Commentary: [The Primacy of Social Support](https://www.tandfonline.com/doi/full/10.1080/2153599X.2016.1156560). *Religion, Brain and Behavior*. 7(3):255-258.
 
-* 2015\. Rebecca Bliege Bird and **Eleanor A. Power**. [Prosocial Signaling and Cooperation Among Martu Hunters](https://www.sciencedirect.com/science/article/pii/S1090513815000215). *Evolution and Human Behavior*. 36(5): 389-397.
+* 2015\. Rebecca Bliege Bird and **Eleanor A. Power**. [Prosocial Signaling and Cooperation Among Martu Hunters](https://www.sciencedirect.com/science/article/pii/S1090513815000215). *Evolution and Human Behavior*. 36(5):389-397.
 
-* 2014\. Douglas J. McCauley, Hillary S. Young, Roger Guevara, Gareth J. Williams, **Eleanor A. Power**, Robert B. Dunbar, Douglas W. Bird, William H. Durham, \& Fiorenza Micheli. [Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems](https://onlinelibrary.wiley.com/doi/full/10.1111/cobi.12314). *Conservation Biology*. 28(5): 1312-1321.
+* 2014\. Douglas J. McCauley, Hillary S. Young, Roger Guevara, Gareth J. Williams, **Eleanor A. Power**, Robert B. Dunbar, Douglas W. Bird, William H. Durham, \& Fiorenza Micheli. [Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems](https://onlinelibrary.wiley.com/doi/full/10.1111/cobi.12314). *Conservation Biology*. 28(5):1312-1321.
 
-* 2014\. Douglas J. McCauley, Hillary S. Young, **Eleanor A. Power**, Douglas W. Bird, William H. Durham, Alex McInturff, Robert B. Dunbar, \& Fiorenza Micheli. [Pushing Back Against Paper-Park Pushers -- Reply to Craigie et al](https://www.sciencedirect.com/science/article/pii/S0006320714000913). *Biological Conservation*. 172: 223-224.
+* 2014\. Douglas J. McCauley, Hillary S. Young, **Eleanor A. Power**, Douglas W. Bird, William H. Durham, Alex McInturff, Robert B. Dunbar, \& Fiorenza Micheli. [Pushing Back Against Paper-Park Pushers -- Reply to Craigie et al](https://www.sciencedirect.com/science/article/pii/S0006320714000913). *Biological Conservation*. 172:223-224.
 
-* 2013\. Douglas J. McCauley, **Eleanor A. Power**, Douglas W. Bird, Alex McInturff, Robert B. Dunbar, William H. Durham, Fiorenza Micheli, \& Hillary S. Young. [Conservation at the Edges of the World](https://www.sciencedirect.com/science/article/pii/S0006320713001766). *Biological Conservation*. 165 (September): 139--145. 
+* 2013\. Douglas J. McCauley, **Eleanor A. Power**, Douglas W. Bird, Alex McInturff, Robert B. Dunbar, William H. Durham, Fiorenza Micheli, \& Hillary S. Young. [Conservation at the Edges of the World](https://www.sciencedirect.com/science/article/pii/S0006320713001766). *Biological Conservation*. 165:139--145. 
 
-* 2005\. Robert J. Losey and **Eleanor A. Power**. Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample. *Journal of Northwest Anthropology* 39(1): 1-20.
+* 2005\. Robert J. Losey and **Eleanor A. Power**. Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample. *Journal of Northwest Anthropology*. 39(1):1-20.
+
+
 
 ---------------------
 
-### Code
+### Code & Data
+
+Researchers interested in getting access to the data used in the papers listed below should email me!
 
 * Code repository for [Cooperation Beyond Consanguinity](https://github.com/eapower/Kinship)
 
 * Code repository for [Building Bigness](https://github.com/eapower/BuildingBigness)
 
-* Code repository for [Collective Ritual](https://github.com/eapower/CollectiveRitual)
+* Code repository for [Collective Ritual and Social Support Networks in Rural South India](https://github.com/eapower/CollectiveRitual)
 
-* Code repository for [Social Support and Religiosity](https://github.com/eapower/NatHumBehavCode)
+* Code repository for [Social Support Networks and Religiosity in Rural South India](https://github.com/eapower/NatHumBehavCode)
+
+* Code repository for [MultiTensor](https://github.com/cdebacco/MultiTensor)
 
 * [ERGM predictions and GWESP](https://eehh-stanford.github.io/SNA-workshop/ergm-predictions.html)
+
+* I have a number of datasets and research questions that may be of interest to potential postgraduate students. If you're interested in working with me on one of the datasets or topics below, get in touch.
+
+  - How does successful collaboration happen? Using data on the scientific publications of workshop attendees at the [Lorentz Center](https://lorentzcenter.nl/) (with [Francesca Giardini](https://www.francescagiardini.eu/)). 
+
+  - How does social capital shape economic well-being? Using data on the daily expenditures, work, and wages for 100+ households over 20 months. 
+
+  - How does reputation change over time? Using data on reputational nominations separated by 4 years.
 
 ---------------------
 
@@ -82,10 +111,12 @@ London, WC2A 2AE
 
 e.a.power [at] lse.ac.uk
 
-[@eleanorapower](https://twitter.com/eleanorapower)
+[\@eleanorapower](https://twitter.com/eleanorapower)
 
 [Google Scholar](https://scholar.google.com/citations?user=1eWtkAQAAAAJ&hl=en&oi=ao)
 
 [ORCID](https://orcid.org/0000-0002-3064-2050)
 
 [CV](https://github.com/eapower/eapower.github.io/blob/master/EPower_CV.pdf)
+
+My [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 3. (I [co-authored](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.042317) with Cris Moore, who [co-authored](https://epubs.siam.org/doi/abs/10.1137/050644896?casa_token=H0yHa-rMDbsAAAAA%3AkbEVLEf4fCuxHoMv1nex4Lt4uBdLdBG-IUyYo4_x_pd2O6mCajZXeh5s--LBc2UWMNCiSH0q&) with Leonard Schulman, who [co-authored](https://link.springer.com/article/10.1007/BF01215345) with Erdős.)
