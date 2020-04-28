@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -2859,6 +2860,9 @@ if (HTMLWidgets.shinyMode){
             if(data.options.byselection.hideColor){
               el.byselectionColor = data.options.byselection.hideColor;
             }
+            if(data.options.byselection.highlight !== undefined){
+              el.byselectionHighlight = data.options.byselection.highlight;
+            }
           }
           
           if(data.options.byselection !== undefined){
@@ -3296,8 +3300,10 @@ HTMLWidgets.widget({
 
     if(x.byselection.enabled){
       el_id.byselectionColor = x.byselection.hideColor;
+      el_id.byselectionHighlight = x.byselection.highlight;
     } else {
       el_id.byselectionColor = 'rgba(200,200,200,0.5)';
+      el_id.byselectionHighlight = false;
     }
     
     if(x.idselection.enabled){
@@ -3382,7 +3388,7 @@ HTMLWidgets.widget({
         instance.network.selectNodes([id]);
       }
       if(el_id.highlight){
-        neighbourhoodHighlight(instance.network.getSelection().nodes, "click", el_id.highlightAlgorithm);
+        neighbourhoodHighlight(instance.network.getSelection().nodes, "click", el_id.highlightAlgorithm, true);
       }else{
         if(init){
           selectNode = document.getElementById('nodeSelect'+el.id);
@@ -3959,7 +3965,7 @@ HTMLWidgets.widget({
             var r = confirm("Do you want to delete " + data.nodes.length + " node(s) and " + data.edges.length + " edges ?");
             if (r === true) {
               deleteSubGraph(data, callback);
-            }
+            } else { clearPopUp(); callback(null); }
         };
       } else if(typeof(x.options.manipulation.deleteNode) === typeof(true)){
         if(x.options.manipulation.deleteNode){
@@ -3967,7 +3973,7 @@ HTMLWidgets.widget({
               var r = confirm("Do you want to delete " + data.nodes.length + " node(s) and " + data.edges.length + " edges ?");
               if (r === true) {
                 deleteSubGraph(data, callback);
-              }
+              } else { clearPopUp(); callback(null); }
           };
         } else {
           options.manipulation.deleteNode = false;
@@ -3981,7 +3987,7 @@ HTMLWidgets.widget({
             var r = confirm("Do you want to delete " + data.edges.length + " edges ?");
             if (r === true) {
               deleteSubGraph(data, callback);
-            }
+            } else { clearPopUp(); callback(null); }
         };
       } else if(typeof(x.options.manipulation.deleteEdge) === typeof(true)){
         if(x.options.manipulation.deleteEdge){
@@ -3989,7 +3995,7 @@ HTMLWidgets.widget({
               var r = confirm("Do you want to delete " + data.edges.length + " edges ?");
               if (r === true) {
                 deleteSubGraph(data, callback);
-              }
+              } else { clearPopUp(); callback(null); }
           };
         } else {
           options.manipulation.deleteEdge = false;
@@ -4310,6 +4316,12 @@ HTMLWidgets.widget({
           edges.update(edgesHardToRead);
             
           nodes.update(updateArray);
+          
+          // select for highlight
+          if(el_id.highlight && x.nodes && el_id.byselectionHighlight){
+              neighbourhoodHighlight(connectedNodes, "click", el_id.highlightAlgorithm, false);
+              instance.network.selectNodes(connectedNodes)
+          }
         }
       }
       else if (el_id.selectActive === true) {
@@ -4325,7 +4337,7 @@ HTMLWidgets.widget({
     var is_hovered = false;
     var is_clicked = false;
     
-    function neighbourhoodHighlight(params, action_type, algorithm) {
+    function neighbourhoodHighlight(params, action_type, algorithm, reset_selectedBy) {
 
       var nodes_in_clusters = instance.network.body.modules.clustering.clusteredNodes;
       var have_cluster_nodes = false;
@@ -4739,7 +4751,7 @@ HTMLWidgets.widget({
         }
       }
       // reset selectedBy list if actived
-      if(el_id.byselection){
+      if(el_id.byselection && reset_selectedBy){
         resetList("selectedBy", el.id, 'selectedBy');
       }
     }
@@ -4777,7 +4789,7 @@ HTMLWidgets.widget({
     // shared click function (selectedNodes)
     document.getElementById("graph"+el.id).myclick = function(params){
         if(el_id.highlight && x.nodes){
-          neighbourhoodHighlight(params.nodes, "click", el_id.highlightAlgorithm);
+          neighbourhoodHighlight(params.nodes, "click", el_id.highlightAlgorithm, true);
         }else if((el_id.idselection || el_id.byselection) && x.nodes){
           onClickIDSelection(params)
         }
@@ -4786,7 +4798,7 @@ HTMLWidgets.widget({
     // Set event in relation with highlightNearest      
     instance.network.on("click", function(params){
         if(el_id.highlight && x.nodes){
-          neighbourhoodHighlight(params.nodes, "click", el_id.highlightAlgorithm);
+          neighbourhoodHighlight(params.nodes, "click", el_id.highlightAlgorithm, true);
         }else if((el_id.idselection || el_id.byselection) && x.nodes){
           onClickIDSelection(params)
         } 
@@ -4794,13 +4806,13 @@ HTMLWidgets.widget({
     
     instance.network.on("hoverNode", function(params){
       if(el_id.hoverNearest && x.nodes){
-        neighbourhoodHighlight([params.node], "hover", el_id.highlightAlgorithm);
+        neighbourhoodHighlight([params.node], "hover", el_id.highlightAlgorithm, true);
       } 
     });
 
     instance.network.on("blurNode", function(params){
       if(el_id.hoverNearest && x.nodes){
-        neighbourhoodHighlight([], "hover", el_id.highlightAlgorithm);
+        neighbourhoodHighlight([], "hover", el_id.highlightAlgorithm, true);
       }      
     });
     
@@ -4964,7 +4976,7 @@ HTMLWidgets.widget({
         // reset some parameters / data before
         if (el_id.selectActive === true | el_id.highlightActive === true) {
           //reset nodes
-          neighbourhoodHighlight([], "click", el_id.highlightAlgorithm);
+          neighbourhoodHighlight([], "click", el_id.highlightAlgorithm, true);
           if (el_id.selectActive === true){
             el_id.selectActive = false;
             resetList('selectedBy',el.id, 'selectedBy');
@@ -5450,18 +5462,6 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -5495,9 +5495,10 @@ $(document).ready(function () {
 </div>
 <div id="publications" class="section level3">
 <h3>Publications</h3>
-<div id="htmlwidget-e6f450dc39058d816eaa" style="width:672px;height:480px;" class="visNetwork html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e6f450dc39058d816eaa">{"x":{"nodes":{"id":["EleanorPower","RobertLosey","DouglasMcCauley","DouglasBird","AlexMcInturff","RobertDunbar","WilliamDurham","FiorenzaMicheli","HillaryYoung","RogerGuevara","GarethWilliams","RebeccaBird","CaterinaDeBacco","DanielLarremore","CrisMoore","ElspethReady","JessicaBarker","StephenHeap","MikaelPuurtinen","RichardSosis","Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ProsocialSignaling","Primacy","RomanByzantine","DiscerningDevotion","SocialSupport","CommunityDetection","PraxisDoxa","WhyWageEarners","SocialSignificance","CollectiveRitual","BuildingBigness","ContentCostContext","CooperationBeyond","KinshipTies","JeremyKoster","DieterLukas","DavidNolin","AlexAlvergne","RuthMace","CodyRoss","KarenKramer","RussellGreaves","MarkCaudell","ShaneMacfarlan","EricSchniter","RobertQuinlan","SiobhanMattison","AdamReynolds","ChunYiSum","EricMassengill","BeneficialEpidemics","AndrewBerdahl","ChristaBrelsford","MarionDumas","VanessaFerdinand","JoshuaGrochow","LaurentHebertDufresne","YoavKallus","ChristopherKempes","ArtemyKolchinsky","EricLibby","CaitlinStern","BrendanTracey"],"type.label":["Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author"],"title":["Eleanor Power","Robert Losey","Douglas McCauley","Douglas Bird","Alex McInturff","Rob Dunbar","Bill Durham","Fiorenza Micheli","Hillary Young","Roger Guevara","Gareth J. Williams","Rebecca Bliege Bird","Caterina De Bacco","Daniel Larremore","Cris Moore","Elspeth Ready","Jessica Barker","Stephen Heap","Mikael Puurtinen","Richard Sosis","Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample ","Conservation at the Edges of the World ","Pushing Back Against Paper-Park Pushers ","Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems ","Prosocial Signaling and Cooperation Among Martu Hunters ","The Primacy of Social Support ","The Roman-Byzantine Baths Adjacent to the Great Temple ","Discerning Devotion: Testing the Signaling Theory of Religion ","Social Support Networks and Religiosity in Rural South India ","Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks ","Praxis and Doxa: What a Focus on Ritual Can Offer Evolutionary Explanations of Religion ","Why Wage-Earners Hunt: Food Sharing, Social Structure, & Influence in an Arctic Mixed Economy ","The Social Significance of Subtle Signals ","Collective Ritual and Social Support Networks in Rural South India ","Building Bigness: Reputation, Prominence, and Social Capital in Rural South India ","Content, Cost, and Context: A Framework for Understanding Human Signaling Systems ","Cooperation Beyond Consanguinity: Post-Marital Residence, Delineations of Kin, and Social Support Among South Indian Tamils ","Kinship Ties Across the Lifespan in Human Communities","Jeremy Koster","Dieter Lukas","David Nolin","Alex Alvergne","Ruth Mace","Cody Ross","Karen Kramer","Russell Greaves","Mark Caudell","Shane Macfarlan","Eric Schniter","Robert Quinlan","Siobhan Mattison","Adam Reynolds","Chun Yi-Sum","Eric Massengill","Dynamics of Beneficial Epidemics","Andrew Berdahl","Christa Brelsford","Marion Dumas","Vanessa Ferdinand","Joshua A. Grochow","Laurent Hebert Dufresne","Yoav Kallus","Christopher Kempes","Artemy Kolchinsky","Eric Libby","Caitlin Stern","Brendan Tracey"],"year":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2005,2013,2014,2014,2015,2016,2017,2017,2017,2017,2018,2018,2018,2018,2018,2019,2019,2019,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2019,null,null,null,null,null,null,null,null,null,null,null,null],"venue":["LSE","Alberta","UCSB","Penn State","UC Berkley","Stanford","Stanford","Stanford","UCSB","INECOL","Bangor","Penn State","MPI","U Colorado","SFI","MPI-EVA","Behavioural Insights","","Jyv<8a>skyl<8a>","UConn","Journal of Northwest Anthropology","Biological Conservation","Biological Conservation","Conservation Biology","Evolution and Human Behavior","Religion Brain and Behavior","Petra Great Temple Volume 3","Evolution and Human Behavior","Nature Human Behaviour","Physical Review E","Religion Brain and Behavior","Current Anthropology","Nature Human Behaviour","Proceedings of the Royal Society B","American Anthropologist","Evolutionary Anthropology","Philosophical Transactions of the Royal Society B","Philosophical Transactions of the Royal Society B","U Cincinnati","MPI-EVA","Penn State","Oxford","UCL","MPI-EVA","Utah","Utah","WSU","Utah","Chapman","WSU","UNM","UNM","UNM","UNM","Scientific Reports","UWash","Oak Ridge","LSE","Melbourne School of Psychological Sciences","U Colorado","U Vermont","SFI","SFI","SFI","Umea U","SFI","Deep Mind"],"color":["#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1"],"shape":["dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot"]},"edges":{"from":["EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","RobertLosey","DouglasMcCauley","DouglasMcCauley","DouglasMcCauley","DouglasBird","DouglasBird","DouglasBird","AlexMcInturff","AlexMcInturff","RobertDunbar","RobertDunbar","RobertDunbar","WilliamDurham","WilliamDurham","WilliamDurham","FiorenzaMicheli","FiorenzaMicheli","FiorenzaMicheli","HillaryYoung","HillaryYoung","HillaryYoung","RogerGuevara","GarethWilliams","RebeccaBird","RebeccaBird","CaterinaDeBacco","DanielLarremore","CrisMoore","ElspethReady","ElspethReady","ElspethReady","ElspethReady","JessicaBarker","StephenHeap","MikaelPuurtinen","RichardSosis","EleanorPower","JeremyKoster","DieterLukas","DavidNolin","AlexAlvergne","RuthMace","CodyRoss","KarenKramer","RussellGreaves","MarkCaudell","ShaneMacfarlan","EricSchniter","RobertQuinlan","SiobhanMattison","AdamReynolds","ChunYiSum","EricMassengill","EleanorPower","CaterinaDeBacco","DanielLarremore","AndrewBerdahl","ChristaBrelsford","MarionDumas","VanessaFerdinand","JoshuaGrochow","LaurentHebertDufresne","YoavKallus","ChristopherKempes","ArtemyKolchinsky","EricLibby","CaitlinStern","BrendanTracey"],"to":["Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ProsocialSignaling","Primacy","RomanByzantine","DiscerningDevotion","SocialSupport","CommunityDetection","PraxisDoxa","WhyWageEarners","SocialSignificance","CollectiveRitual","BuildingBigness","ContentCostContext","CooperationBeyond","Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","PositiveNegative","PositiveNegative","ProsocialSignaling","SocialSignificance","CommunityDetection","CommunityDetection","CommunityDetection","WhyWageEarners","SocialSignificance","BuildingBigness","CooperationBeyond","ContentCostContext","ContentCostContext","ContentCostContext","ContentCostContext","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics"]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"dot"},"manipulation":{"enabled":false}},"groups":null,"width":null,"height":null,"idselection":{"enabled":false},"byselection":{"enabled":false},"main":null,"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-fadaaea7259fa77e4e99" style="width:672px;height:480px;" class="visNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fadaaea7259fa77e4e99">{"x":{"nodes":{"id":["EleanorPower","RobertLosey","DouglasMcCauley","DouglasBird","AlexMcInturff","RobertDunbar","WilliamDurham","FiorenzaMicheli","HillaryYoung","RogerGuevara","GarethWilliams","RebeccaBird","CaterinaDeBacco","DanielLarremore","CrisMoore","ElspethReady","JessicaBarker","StephenHeap","MikaelPuurtinen","RichardSosis","Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ProsocialSignaling","Primacy","RomanByzantine","DiscerningDevotion","SocialSupport","CommunityDetection","PraxisDoxa","WhyWageEarners","SocialSignificance","CollectiveRitual","BuildingBigness","ContentCostContext","CooperationBeyond","KinshipTies","JeremyKoster","DieterLukas","DavidNolin","AlexAlvergne","RuthMace","CodyRoss","KarenKramer","RussellGreaves","MarkCaudell","ShaneMacfarlan","EricSchniter","RobertQuinlan","SiobhanMattison","AdamReynolds","ChunYiSum","EricMassengill","BeneficialEpidemics","AndrewBerdahl","ChristaBrelsford","MarionDumas","VanessaFerdinand","JoshuaGrochow","LaurentHebertDufresne","YoavKallus","ChristopherKempes","ArtemyKolchinsky","EricLibby","CaitlinStern","BrendanTracey","MartinaContisciani","MTCov"],"type.label":["Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article"],"title":["Eleanor Power","Robert Losey","Douglas McCauley","Douglas Bird","Alex McInturff","Rob Dunbar","Bill Durham","Fiorenza Micheli","Hillary Young","Roger Guevara","Gareth J. Williams","Rebecca Bliege Bird","Caterina De Bacco","Daniel Larremore","Cris Moore","Elspeth Ready","Jessica Barker","Stephen Heap","Mikael Puurtinen","Richard Sosis","Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample ","Conservation at the Edges of the World ","Pushing Back Against Paper-Park Pushers ","Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems ","Prosocial Signaling and Cooperation Among Martu Hunters ","The Primacy of Social Support ","The Roman-Byzantine Baths Adjacent to the Great Temple ","Discerning Devotion: Testing the Signaling Theory of Religion ","Social Support Networks and Religiosity in Rural South India ","Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks ","Praxis and Doxa: What a Focus on Ritual Can Offer Evolutionary Explanations of Religion ","Why Wage-Earners Hunt: Food Sharing, Social Structure, & Influence in an Arctic Mixed Economy ","The Social Significance of Subtle Signals ","Collective Ritual and Social Support Networks in Rural South India ","Building Bigness: Reputation, Prominence, and Social Capital in Rural South India ","Content, Cost, and Context: A Framework for Understanding Human Signaling Systems ","Cooperation Beyond Consanguinity: Post-Marital Residence, Delineations of Kin, and Social Support Among South Indian Tamils ","Kinship Ties Across the Lifespan in Human Communities","Jeremy Koster","Dieter Lukas","David Nolin","Alex Alvergne","Ruth Mace","Cody Ross","Karen Kramer","Russell Greaves","Mark Caudell","Shane Macfarlan","Eric Schniter","Robert Quinlan","Siobhan Mattison","Adam Reynolds","Chun Yi-Sum","Eric Massengill","Dynamics of Beneficial Epidemics","Andrew Berdahl","Christa Brelsford","Marion Dumas","Vanessa Ferdinand","Joshua A. Grochow","Laurent Hebert Dufresne","Yoav Kallus","Christopher Kempes","Artemy Kolchinsky","Eric Libby","Caitlin Stern","Brendan Tracey","Martina Contisciani","Community detection with node attributes in multilayer networks"],"year":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2005,2013,2014,2014,2015,2016,2017,2017,2017,2017,2018,2018,2018,2018,2018,2019,2019,2019,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2019,null,null,null,null,null,null,null,null,null,null,null,null,null,2020],"venue":["LSE","Alberta","UCSB","Penn State","UC Berkley","Stanford","Stanford","Stanford","UCSB","INECOL","Bangor","Penn State","MPI-IS","U Colorado","SFI","MPI-EVA","Behavioural Insights","","Jyv<8a>skyl<8a>","UConn","Journal of Northwest Anthropology","Biological Conservation","Biological Conservation","Conservation Biology","Evolution and Human Behavior","Religion Brain and Behavior","Petra Great Temple Volume 3","Evolution and Human Behavior","Nature Human Behaviour","Physical Review E","Religion Brain and Behavior","Current Anthropology","Nature Human Behaviour","Proceedings of the Royal Society B","American Anthropologist","Evolutionary Anthropology","Philosophical Transactions of the Royal Society B","Philosophical Transactions of the Royal Society B","U Cincinnati","MPI-EVA","Penn State","Oxford","UCL","MPI-EVA","Utah","Utah","WSU","Utah","Chapman","WSU","UNM","UNM","UNM","UNM","Scientific Reports","UWash","Oak Ridge","LSE","Melbourne School of Psychological Sciences","U Colorado","U Vermont","SFI","SFI","SFI","Umea U","SFI","Deep Mind","MPI-IS",""],"color":["#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61"],"shape":["dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square"]},"edges":{"from":["EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","RobertLosey","DouglasMcCauley","DouglasMcCauley","DouglasMcCauley","DouglasBird","DouglasBird","DouglasBird","AlexMcInturff","AlexMcInturff","RobertDunbar","RobertDunbar","RobertDunbar","WilliamDurham","WilliamDurham","WilliamDurham","FiorenzaMicheli","FiorenzaMicheli","FiorenzaMicheli","HillaryYoung","HillaryYoung","HillaryYoung","RogerGuevara","GarethWilliams","RebeccaBird","RebeccaBird","CaterinaDeBacco","DanielLarremore","CrisMoore","ElspethReady","ElspethReady","ElspethReady","ElspethReady","JessicaBarker","StephenHeap","MikaelPuurtinen","RichardSosis","EleanorPower","JeremyKoster","DieterLukas","DavidNolin","AlexAlvergne","RuthMace","CodyRoss","KarenKramer","RussellGreaves","MarkCaudell","ShaneMacfarlan","EricSchniter","RobertQuinlan","SiobhanMattison","AdamReynolds","ChunYiSum","EricMassengill","EleanorPower","CaterinaDeBacco","DanielLarremore","AndrewBerdahl","ChristaBrelsford","MarionDumas","VanessaFerdinand","JoshuaGrochow","LaurentHebertDufresne","YoavKallus","ChristopherKempes","ArtemyKolchinsky","EricLibby","CaitlinStern","BrendanTracey","EleanorPower","CaterinaDeBacco","MartinaContisciani"],"to":["Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ProsocialSignaling","Primacy","RomanByzantine","DiscerningDevotion","SocialSupport","CommunityDetection","PraxisDoxa","WhyWageEarners","SocialSignificance","CollectiveRitual","BuildingBigness","ContentCostContext","CooperationBeyond","Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","PositiveNegative","PositiveNegative","ProsocialSignaling","SocialSignificance","CommunityDetection","CommunityDetection","CommunityDetection","WhyWageEarners","SocialSignificance","BuildingBigness","CooperationBeyond","ContentCostContext","ContentCostContext","ContentCostContext","ContentCostContext","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","MTCov","MTCov","MTCov"]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"dot"},"manipulation":{"enabled":false}},"groups":null,"width":null,"height":null,"idselection":{"enabled":false},"byselection":{"enabled":false},"main":null,"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)"},"evals":[],"jsHooks":[]}</script>
 <ul>
+<li><p>2020. Martina Contisciani, <strong>Eleanor A. Power</strong>, Caterina De Bacco. <a href="http://arxiv.org/abs/2004.09160">Community detection with node attributes in multilayer networks</a>. (ArXiv preprint).</p></li>
 <li><p>2019. Andrew Berdahl, Christa Brelsford, Caterina De Bacco, Marion Dumas, Vanessa Ferdinand, Joshua A. Grochow, Laurent Hébert-Dufresne, Yoav Kallus, Christopher P. Kempes, Artemy Kolchinsky, Daniel B. Larremore, Eric Libby, <strong>Eleanor A. Power</strong>, Caitlin A. Stern, Brendan Tracey. <a href="https://www.nature.com/articles/s41598-019-50039-w">Dynamics of Beneficial Epidemics</a>. <em>Scientific Reports</em>. 9(1):15093. (More about this paper and the “72 Hours of Science” process <a href="https://arxiv.org/abs/1604.02096">here</a> and <a href="https://gizmodo.com/when-things-go-viral-and-everybody-wins-1769950969">here</a>).</p></li>
 <li><p>2019. Jeremy Koster, Dieter Lukas, David Nolin, <strong>Eleanor A. Power</strong>, Alexandra Alvergne, Ruth Mace, Cody T. Ross, Karen Kramer, Russell Greaves, Mark Caudell, Shane MacFarlan, Eric Schniter, Robert Quinlan, Siobhan Mattison, Adam Reynolds, Chun Yi-Sum, and Eric Massengill. <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2018.0069">Kinship Ties Across the Lifespan in Human Communities</a>. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. 374(1780):20180069.</p></li>
 <li><p>2019. <strong>Eleanor A. Power</strong> and Elspeth Ready. <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2018.0070">Cooperation Beyond Consanguinity: Post-Marital Residence, Delineations of Kin, and Social Support Among South Indian Tamils</a>. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. 374(1780):20180070. <a href="https://github.com/eapower/Kinship">Code</a>.</p></li>
@@ -5529,6 +5530,7 @@ $(document).ready(function () {
 <li><p>Code repository for <a href="https://github.com/eapower/CollectiveRitual">Collective Ritual and Social Support Networks in Rural South India</a></p></li>
 <li><p>Code repository for <a href="https://github.com/eapower/NatHumBehavCode">Social Support Networks and Religiosity in Rural South India</a></p></li>
 <li><p>Code repository for <a href="https://github.com/cdebacco/MultiTensor">MultiTensor</a></p></li>
+<li><p>Code repository for <a href="https://github.com/mcontisc/MTCOV">MTCov</a></p></li>
 <li><p><a href="https://eehh-stanford.github.io/SNA-workshop/ergm-predictions.html">ERGM predictions and GWESP</a></p></li>
 <li><p>I have a number of datasets and research questions that may be of interest to potential postgraduate students. If you’re interested in working with me on one of the datasets or topics below, get in touch.</p>
 <ul>
@@ -5580,6 +5582,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
