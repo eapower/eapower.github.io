@@ -16,6 +16,8 @@ require(visNetwork)
 visNetwork(vis.nodes,vis.edges)
 ```
 
+* 2020\. Martina Contisciani, **Eleanor A. Power**, Caterina De Bacco. [Community Detection with Node Attributes in Multilayer Networks](http://arxiv.org/abs/2004.09160). (ArXiv preprint). 
+
 * 2019\. Andrew Berdahl, Christa Brelsford, Caterina De Bacco, Marion Dumas, Vanessa Ferdinand, Joshua A. Grochow, Laurent Hébert-Dufresne, Yoav Kallus, Christopher P. Kempes, Artemy Kolchinsky, Daniel B. Larremore, Eric Libby, **Eleanor A. Power**, Caitlin A. Stern, Brendan Tracey. [Dynamics of Beneficial Epidemics](https://www.nature.com/articles/s41598-019-50039-w). *Scientific Reports*. 9(1):15093. (More about this paper and the "72 Hours of Science" process [here](https://arxiv.org/abs/1604.02096) and [here](https://gizmodo.com/when-things-go-viral-and-everybody-wins-1769950969)).
 
 * 2019\. Jeremy Koster, Dieter Lukas, David Nolin, **Eleanor A. Power**, Alexandra Alvergne, Ruth Mace, Cody T. Ross, Karen Kramer, Russell Greaves, Mark Caudell, Shane MacFarlan, Eric Schniter, Robert Quinlan, Siobhan Mattison, Adam Reynolds, Chun Yi-Sum, and Eric Massengill. [Kinship Ties Across the Lifespan in Human Communities](https://royalsocietypublishing.org/doi/10.1098/rstb.2018.0069). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 374(1780):20180069.
@@ -71,6 +73,8 @@ Researchers interested in getting access to the data used in the papers listed b
 * Code repository for [Social Support Networks and Religiosity in Rural South India](https://github.com/eapower/NatHumBehavCode)
 
 * Code repository for [MultiTensor](https://github.com/cdebacco/MultiTensor)
+
+* Code repository for [MTCov](https://github.com/mcontisc/MTCOV)
 
 * [ERGM predictions and GWESP](https://eehh-stanford.github.io/SNA-workshop/ergm-predictions.html)
 
