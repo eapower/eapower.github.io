@@ -1,0 +1,77 @@
+id,type.label,title,year,venue,color,shape
+EleanorPower,Author,Eleanor Power,,LSE,#74add1,dot
+RobertLosey,Author,Robert Losey,,Alberta,#74add1,dot
+DouglasMcCauley,Author,Douglas McCauley,,UCSB,#74add1,dot
+DouglasBird,Author,Douglas Bird,,Penn State,#74add1,dot
+AlexMcInturff,Author,Alex McInturff,,UC Berkley,#74add1,dot
+RobertDunbar,Author,Rob Dunbar,,Stanford,#74add1,dot
+WilliamDurham,Author,Bill Durham,,Stanford,#74add1,dot
+FiorenzaMicheli,Author,Fiorenza Micheli,,Stanford,#74add1,dot
+HillaryYoung,Author,Hillary Young,,UCSB,#74add1,dot
+RogerGuevara,Author,Roger Guevara,,INECOL,#74add1,dot
+GarethWilliams,Author,Gareth J. Williams,,Bangor,#74add1,dot
+RebeccaBird,Author,Rebecca Bliege Bird,,Penn State,#74add1,dot
+CaterinaDeBacco,Author,Caterina De Bacco,,MPI-IS,#74add1,dot
+DanielLarremore,Author,Daniel Larremore,,U Colorado,#74add1,dot
+CrisMoore,Author,Cris Moore,,SFI,#74add1,dot
+ElspethReady,Author,Elspeth Ready,,MPI-EVA,#74add1,dot
+JessicaBarker,Author,Jessica Barker,,Behavioural Insights,#74add1,dot
+StephenHeap,Author,Stephen Heap,,,#74add1,dot
+MikaelPuurtinen,Author,Mikael Puurtinen,,Jyväskylä,#74add1,dot
+RichardSosis,Author,Richard Sosis,,UConn,#74add1,dot
+Shellfish,Article,"Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample ",2005,Journal of Northwest Anthropology,#fdae61,square
+ConservationAtTheEdge,Article,Conservation at the Edges of the World ,2013,Biological Conservation,#fdae61,square
+PushingBack,Article,Pushing Back Against Paper-Park Pushers ,2014,Biological Conservation,#fdae61,square
+PositiveNegative,Article,Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems ,2014,Conservation Biology,#fdae61,square
+ProsocialSignaling,Article,Prosocial Signaling and Cooperation Among Martu Hunters ,2015,Evolution and Human Behavior,#fdae61,square
+Primacy,Article,The Primacy of Social Support ,2016,Religion Brain and Behavior,#fdae61,square
+RomanByzantine,Article,The Roman-Byzantine Baths Adjacent to the Great Temple ,2017,Petra Great Temple Volume 3,#fdae61,square
+DiscerningDevotion,Article,Discerning Devotion: Testing the Signaling Theory of Religion ,2017,Evolution and Human Behavior,#fdae61,square
+SocialSupport,Article,Social Support Networks and Religiosity in Rural South India ,2017,Nature Human Behaviour,#fdae61,square
+CommunityDetection,Article,"Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks ",2017,Physical Review E,#fdae61,square
+PraxisDoxa,Article,Praxis and Doxa: What a Focus on Ritual Can Offer Evolutionary Explanations of Religion ,2018,Religion Brain and Behavior,#fdae61,square
+WhyWageEarners,Article,"Why Wage-Earners Hunt: Food Sharing, Social Structure, & Influence in an Arctic Mixed Economy ",2018,Current Anthropology,#fdae61,square
+SocialSignificance,Article,The Social Significance of Subtle Signals ,2018,Nature Human Behaviour,#fdae61,square
+CollectiveRitual,Article,Collective Ritual and Social Support Networks in Rural South India ,2018,Proceedings of the Royal Society B,#fdae61,square
+BuildingBigness,Article,"Building Bigness: Reputation, Prominence, and Social Capital in Rural South India ",2018,American Anthropologist,#fdae61,square
+ContentCostContext,Article,"Content, Cost, and Context: A Framework for Understanding Human Signaling Systems ",2019,Evolutionary Anthropology,#fdae61,square
+CooperationBeyond,Article,"Cooperation Beyond Consanguinity: Post-Marital Residence, Delineations of Kin, and Social Support Among South Indian Tamils ",2019,Philosophical Transactions of the Royal Society B,#fdae61,square
+KinshipTies,Article,Kinship Ties Across the Lifespan in Human Communities,2019,Philosophical Transactions of the Royal Society B,#fdae61,square
+JeremyKoster,Author,Jeremy Koster,,U Cincinnati,#74add1,dot
+DieterLukas,Author,Dieter Lukas,,MPI-EVA,#74add1,dot
+DavidNolin,Author,David Nolin,,Penn State,#74add1,dot
+AlexAlvergne,Author,Alex Alvergne,,Oxford,#74add1,dot
+RuthMace,Author,Ruth Mace,,UCL,#74add1,dot
+CodyRoss,Author,Cody Ross,,MPI-EVA,#74add1,dot
+KarenKramer,Author,Karen Kramer,,Utah,#74add1,dot
+RussellGreaves,Author,Russell Greaves,,Utah,#74add1,dot
+MarkCaudell,Author,Mark Caudell,,WSU,#74add1,dot
+ShaneMacfarlan,Author,Shane Macfarlan,,Utah,#74add1,dot
+EricSchniter,Author,Eric Schniter,,Chapman,#74add1,dot
+RobertQuinlan,Author,Robert Quinlan,,WSU,#74add1,dot
+SiobhanMattison,Author,Siobhan Mattison,,UNM,#74add1,dot
+AdamReynolds,Author,Adam Reynolds,,UNM,#74add1,dot
+ChunYiSum,Author,Chun Yi-Sum,,UNM,#74add1,dot
+EricMassengill,Author,Eric Massengill,,UNM,#74add1,dot
+BeneficialEpidemics,Article,Dynamics of Beneficial Epidemics,2019,Scientific Reports,#fdae61,square
+AndrewBerdahl,Author,Andrew Berdahl,,UWash,#74add1,dot
+ChristaBrelsford,Author,Christa Brelsford,,Oak Ridge,#74add1,dot
+MarionDumas,Author,Marion Dumas,,LSE,#74add1,dot
+VanessaFerdinand,Author,Vanessa Ferdinand,,Melbourne School of Psychological Sciences,#74add1,dot
+JoshuaGrochow,Author,Joshua A. Grochow,,U Colorado,#74add1,dot
+LaurentHebertDufresne,Author,Laurent Hebert Dufresne,,U Vermont,#74add1,dot
+YoavKallus,Author,Yoav Kallus,,SFI,#74add1,dot
+ChristopherKempes,Author,Christopher Kempes,,SFI,#74add1,dot
+ArtemyKolchinsky,Author,Artemy Kolchinsky,,SFI,#74add1,dot
+EricLibby,Author,Eric Libby,,Umea U,#74add1,dot
+CaitlinStern,Author,Caitlin Stern,,SFI,#74add1,dot
+BrendanTracey,Author,Brendan Tracey,,Deep Mind,#74add1,dot
+MartinaContisciani,Author,Martina Contisciani,,MPI-IS,#74add1,dot
+MTCov,Article,Community detection with node attributes in multilayer networks,2020,,#fdae61,square
+ChurchAttendance,Article,"Church Attendance and Alloparenting: An Analysis of Fertility, Social Support, and Child Development Among English Mothers",2020,Philosophical Transactions of the Royal Society B,#fdae61,square
+JohnShaver,Author,John Shaver,,U Otago,#74add1,dot
+BenjaminPurzycki,Author,Benjamin G. Purzycki,,Aarhus U,#74add1,dot
+JosephWatts,Author,Joseph Watts,,U Otago,#74add1,dot
+RebeccaSear,Author,Rebecca Sear,,LSHTM,#74add1,dot
+MaryShenk,Author,Mary K. Shenk,,Penn State,#74add1,dot
+JosephBulbulia,Author,Joseph A. Bulbulia,,U Auckland,#74add1,dot
