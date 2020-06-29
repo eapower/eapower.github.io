@@ -20,7 +20,7 @@ visNetwork(vis.nodes,vis.edges)
 
 * 2020\. Martina Contisciani, **Eleanor A. Power**, Caterina De Bacco. [Community Detection with Node Attributes in Multilayer Networks](http://arxiv.org/abs/2004.09160). (ArXiv preprint). 
 
-* 2020\. John H. Shaver, **Eleanor A. Power**, Benjamin G. Purzycki, Joseph Watts, Rebecca Sear, Mary K. Shenk, Richard Sosis, and Joseph A. Bulbulia. [Church attendance and alloparenting: An analysis of fertility, social support, and child development among English mothers](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0428). Philosophical Transactions of the Royal Society B: Biological Sciences. 375(1805):20190428.
+* 2020\. John H. Shaver, **Eleanor A. Power**, Benjamin G. Purzycki, Joseph Watts, Rebecca Sear, Mary K. Shenk, Richard Sosis, and Joseph A. Bulbulia. [Church attendance and alloparenting: An analysis of fertility, social support, and child development among English mothers](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0428). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 375(1805):20190428.
 
 * 2019\. Andrew Berdahl, Christa Brelsford, Caterina De Bacco, Marion Dumas, Vanessa Ferdinand, Joshua A. Grochow, Laurent Hébert-Dufresne, Yoav Kallus, Christopher P. Kempes, Artemy Kolchinsky, Daniel B. Larremore, Eric Libby, **Eleanor A. Power**, Caitlin A. Stern, Brendan Tracey. [Dynamics of Beneficial Epidemics](https://www.nature.com/articles/s41598-019-50039-w). *Scientific Reports*. 9(1):15093. (More about this paper and the "72 Hours of Science" process [here](https://arxiv.org/abs/1604.02096) and [here](https://gizmodo.com/when-things-go-viral-and-everybody-wins-1769950969)).
 
