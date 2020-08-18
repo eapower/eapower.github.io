@@ -1,3 +1,9 @@
+---
+title: "Eleanor A. Power"
+output: html_document
+---
+
+
 #### Assistant Professor, [Department of Methodology](http://www.lse.ac.uk/methodology), [London School of Economics & Political Science](https://www.lse.ac.uk/)
 
 I am an anthropologist studying how belief, practice, and identity interact with and shape interpersonal relationships. I look at how people work to discern something of the character, moral being, and intentions of their peers through their actions – particularly their religious action. And, I look at how people strive to communicate something of themselves to others, both in dramatic and in subtle ways. I want to know how such actions and reactions form the basis not only of people’s perceptions of one another, but also form the substance of their relationships and the emergent structure of their social world. When such bonds are crucial to our ability to navigate and get by in the world, this ultimately is an investigation into how people’s religious lives shape their social and economic lives as well.
@@ -34,7 +40,7 @@ visNetwork(vis.nodes,vis.edges)
 
 * 2018\. **Eleanor A. Power**. [Collective Ritual and Social Support Networks in Rural South India](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2018.0023). *Proceedings of the Royal Society B: Biological Sciences*. 285(1879):20180023. [Code](https://github.com/eapower/CollectiveRitual).
 
-* 2018\. Rebecca Bliege Bird, Elspeth Ready, and **Eleanor A. Power**. [The Social Significance of Subtle Signals](https://doi.org/10.1038/s41562-018-0298-3). *Nature Human Behaviour*. (2): 1-6.
+* 2018\. Rebecca Bliege Bird, Elspeth Ready, and **Eleanor A. Power**. [The Social Significance of Subtle Signals](https://doi.org/10.1038/s41562-018-0298-3). *Nature Human Behaviour*. 2(7):452-457.
 
 * 2018\. Elspeth Ready and **Eleanor A. Power**. [Why Wage-Earners Hunt. Food Sharing, Social Structure and Influence in an Arctic Mixed Ecology](http://doi.org/10.1086/696018). *Current Anthropology*. 59(1):74-97.
 
@@ -56,7 +62,7 @@ visNetwork(vis.nodes,vis.edges)
 
 * 2014\. Douglas J. McCauley, Hillary S. Young, **Eleanor A. Power**, Douglas W. Bird, William H. Durham, Alex McInturff, Robert B. Dunbar, \& Fiorenza Micheli. [Pushing Back Against Paper-Park Pushers -- Reply to Craigie et al](https://www.sciencedirect.com/science/article/pii/S0006320714000913). *Biological Conservation*. 172:223-224.
 
-* 2013\. Douglas J. McCauley, **Eleanor A. Power**, Douglas W. Bird, Alex McInturff, Robert B. Dunbar, William H. Durham, Fiorenza Micheli, \& Hillary S. Young. [Conservation at the Edges of the World](https://www.sciencedirect.com/science/article/pii/S0006320713001766). *Biological Conservation*. 165:139--145.
+* 2013\. Douglas J. McCauley, **Eleanor A. Power**, Douglas W. Bird, Alex McInturff, Robert B. Dunbar, William H. Durham, Fiorenza Micheli, \& Hillary S. Young. [Conservation at the Edges of the World](https://www.sciencedirect.com/science/article/pii/S0006320713001766). *Biological Conservation*. 165:139-145.
 
 * 2005\. Robert J. Losey and **Eleanor A. Power**. Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample. *Journal of Northwest Anthropology*. 39(1):1-20.
 
