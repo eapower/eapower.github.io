@@ -60,6 +60,13 @@ visNetwork(vis.nodes,vis.edges)
 
 * 2005\. Robert J. Losey and **Eleanor A. Power**. Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample. *Journal of Northwest Anthropology*. 39(1):1-20.
 
+---------------------
+
+### Grants
+
+* [Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality](https://gtr.ukri.org/projects?ref=ES%2FV006495%2F1). Funded by the UKRI Economic and Social Research Council Research Methods Development Grant (with Caterina De Bacco & Daniel Redhead)
+
+* [The Effect of Social Networks on Inequality: A Longitudinal Cross-Cultural Investigation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1743019&HistoricalAwards=false). Funded by the US National Science Foundation Interdisciplinary Behavioral & Social Science Research Grant (with Jeremy Koster, Monique Borgerhoff Mulder, Samuel Bowles, & Matthew Jackson)
 
 
 ---------------------
