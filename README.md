@@ -11,12 +11,17 @@ I am currently an assistant professor in the [Department of Methodology](https:/
 ---------------------
 
 ### Publications
-```{r, message=FALSE,echo=FALSE,warning=FALSE}
-vis.nodes<-read.csv("nodes.csv",header=TRUE)
-vis.edges<-read.csv("edges.csv",header=TRUE)
+```{r, message = FALSE, echo = FALSE, warning = FALSE}
+vis.nodes<-read.csv("nodes.csv", header = TRUE)
+vis.edges<-read.csv("edges.csv", header = TRUE)
 require(visNetwork)
 visNetwork(vis.nodes,vis.edges)
 ```
+* 2021\. Nichola Raihani and **Eleanor A. Power**. No good deed goes unpunished: the social costs of prosocial behaviour. *Evolutionary Human Sciences*. Accepted.
+
+* 2021\. Marion Dumas, Jessica Barker, and **Eleanor A. Power**. When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. [Code](https://github.com/eapower/when-does-reputation-lie).
+
+* 2021\. Károly Takáacs, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, **Eleanor A. Power**, and Rafael P. M. Wittek. Networks of reliable reputation and cooperation: a review. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted.
 
 * 2020\. Martina Contisciani, **Eleanor A. Power**, Caterina De Bacco. [Community detection with node attributes in multilayer networks](https://www.nature.com/articles/s41598-020-72626-y). *Scientific Reports*. 10(1):15736. 
 
