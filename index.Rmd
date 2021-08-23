@@ -24,11 +24,13 @@ require(visNetwork)
 visNetwork(vis.nodes,vis.edges)
 ```
 
-* 2021\. Nichola Raihani and **Eleanor A. Power**. No good deed goes unpunished: the social costs of prosocial behaviour. *Evolutionary Human Sciences*. Accepted.
+* 2021\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://psyarxiv.com/3upzy/). *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. 
 
-* 2021\. Marion Dumas, Jessica Barker, and **Eleanor A. Power**. When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. [Code](https://github.com/eapower/when-does-reputation-lie)
+* 2021\. Marion Dumas, Jessica Barker, and **Eleanor A. Power**. When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. [Code](https://github.com/eapower/when-does-reputation-lie).
 
-* 2021\. Károly Takáacs, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, **Eleanor A. Power**, and Rafael P. M. Wittek. Networks of reliable reputation and cooperation: a review. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted.
+* 2021\. Károly Takács, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, **Eleanor A. Power**, and Rafael P. M. Wittek. Networks of reliable reputation and cooperation: a review. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted.
+
+* 2021\. Nichola Raihani and **Eleanor A. Power**. [No good deed goes unpunished: the social costs of prosocial behaviour](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/no-good-deed-goes-unpunished-the-social-costs-of-prosocial-behaviour/31F863563C2231AEF7634996A0C4614F). *Evolutionary Human Sciences*. 3, E40. 
 
 * 2020\. Martina Contisciani, **Eleanor A. Power**, Caterina De Bacco. [Community Detection with Node Attributes in Multilayer Networks](https://www.nature.com/articles/s41598-020-72626-y). *Scientific Reports*. 10:15736.
 
