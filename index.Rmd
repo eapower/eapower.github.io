@@ -24,6 +24,10 @@ require(visNetwork)
 visNetwork(vis.nodes,vis.edges)
 ```
 
+* 2021\. Szabolcs Számadó, Daniel Balliet, Francesca Giardini,  **Eleanor A. Power**, and Károly Takács. The language of cooperation: reputation and honest signalling. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. [introduction to the special issue]
+
+* 2021\. Francesca Giardini, Daniel Balliet, **Eleanor A. Power**, Szabolcs Számadó, and Károly Takács. Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure. *Human Nature*. Accepted. 
+
 * 2021\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://psyarxiv.com/3upzy/). *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. 
 
 * 2021\. Marion Dumas, Jessica Barker, and **Eleanor A. Power**. When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. [Code](https://github.com/eapower/when-does-reputation-lie).
