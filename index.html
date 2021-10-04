@@ -46,6 +46,15 @@ if (!!window.navigator.userAgent.match("MSIE 8")) {
 !function(a){"use strict";a.matchMedia=a.matchMedia||function(a){var b,c=a.documentElement,d=c.firstElementChild||c.firstChild,e=a.createElement("body"),f=a.createElement("div");return f.id="mq-test-1",f.style.cssText="position:absolute;top:-100em",e.style.background="none",e.appendChild(f),function(a){return f.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }</style>',c.insertBefore(e,d),b=42===f.offsetWidth,c.removeChild(e),{matches:b,media:a}}}(a.document)}(this),function(a){"use strict";function b(){u(!0)}var c={};a.respond=c,c.update=function(){};var d=[],e=function(){var b=!1;try{b=new a.XMLHttpRequest}catch(c){b=new a.ActiveXObject("Microsoft.XMLHTTP")}return function(){return b}}(),f=function(a,b){var c=e();c&&(c.open("GET",a,!0),c.onreadystatechange=function(){4!==c.readyState||200!==c.status&&304!==c.status||b(c.responseText)},4!==c.readyState&&c.send(null))};if(c.ajax=f,c.queue=d,c.regex={media:/@media[^\{]+\{([^\{\}]*\{[^\}\{]*\})+/gi,keyframes:/@(?:\-(?:o|moz|webkit)\-)?keyframes[^\{]+\{(?:[^\{\}]*\{[^\}\{]*\})+[^\}]*\}/gi,urls:/(url\()['"]?([^\/\)'"][^:\)'"]+)['"]?(\))/g,findStyles:/@media *([^\{]+)\{([\S\s]+?)$/,only:/(only\s+)?([a-zA-Z]+)\s?/,minw:/\([\s]*min\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,maxw:/\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/},c.mediaQueriesSupported=a.matchMedia&&null!==a.matchMedia("only all")&&a.matchMedia("only all").matches,!c.mediaQueriesSupported){var g,h,i,j=a.document,k=j.documentElement,l=[],m=[],n=[],o={},p=30,q=j.getElementsByTagName("head")[0]||k,r=j.getElementsByTagName("base")[0],s=q.getElementsByTagName("link"),t=function(){var a,b=j.createElement("div"),c=j.body,d=k.style.fontSize,e=c&&c.style.fontSize,f=!1;return b.style.cssText="position:absolute;font-size:1em;width:1em",c||(c=f=j.createElement("body"),c.style.background="none"),k.style.fontSize="100%",c.style.fontSize="100%",c.appendChild(b),f&&k.insertBefore(c,k.firstChild),a=b.offsetWidth,f?k.removeChild(c):c.removeChild(b),k.style.fontSize=d,e&&(c.style.fontSize=e),a=i=parseFloat(a)},u=function(b){var c="clientWidth",d=k[c],e="CSS1Compat"===j.compatMode&&d||j.body[c]||d,f={},o=s[s.length-1],r=(new Date).getTime();if(b&&g&&p>r-g)return a.clearTimeout(h),h=a.setTimeout(u,p),void 0;g=r;for(var v in l)if(l.hasOwnProperty(v)){var w=l[v],x=w.minw,y=w.maxw,z=null===x,A=null===y,B="em";x&&(x=parseFloat(x)*(x.indexOf(B)>-1?i||t():1)),y&&(y=parseFloat(y)*(y.indexOf(B)>-1?i||t():1)),w.hasquery&&(z&&A||!(z||e>=x)||!(A||y>=e))||(f[w.media]||(f[w.media]=[]),f[w.media].push(m[w.rules]))}for(var C in n)n.hasOwnProperty(C)&&n[C]&&n[C].parentNode===q&&q.removeChild(n[C]);n.length=0;for(var D in f)if(f.hasOwnProperty(D)){var E=j.createElement("style"),F=f[D].join("\n");E.type="text/css",E.media=D,q.insertBefore(E,o.nextSibling),E.styleSheet?E.styleSheet.cssText=F:E.appendChild(j.createTextNode(F)),n.push(E)}},v=function(a,b,d){var e=a.replace(c.regex.keyframes,"").match(c.regex.media),f=e&&e.length||0;b=b.substring(0,b.lastIndexOf("/"));var g=function(a){return a.replace(c.regex.urls,"$1"+b+"$2$3")},h=!f&&d;b.length&&(b+="/"),h&&(f=1);for(var i=0;f>i;i++){var j,k,n,o;h?(j=d,m.push(g(a))):(j=e[i].match(c.regex.findStyles)&&RegExp.$1,m.push(RegExp.$2&&g(RegExp.$2))),n=j.split(","),o=n.length;for(var p=0;o>p;p++)k=n[p],l.push({media:k.split("(")[0].match(c.regex.only)&&RegExp.$2||"all",rules:m.length-1,hasquery:k.indexOf("(")>-1,minw:k.match(c.regex.minw)&&parseFloat(RegExp.$1)+(RegExp.$2||""),maxw:k.match(c.regex.maxw)&&parseFloat(RegExp.$1)+(RegExp.$2||"")})}u()},w=function(){if(d.length){var b=d.shift();f(b.href,function(c){v(c,b.href,b.media),o[b.href]=!0,a.setTimeout(function(){w()},0)})}},x=function(){for(var b=0;b<s.length;b++){var c=s[b],e=c.href,f=c.media,g=c.rel&&"stylesheet"===c.rel.toLowerCase();e&&g&&!o[e]&&(c.styleSheet&&c.styleSheet.rawCssText?(v(c.styleSheet.rawCssText,e,f),o[e]=!0):(!/^([a-zA-Z:]*\/\/)/.test(e)&&!r||e.replace(RegExp.$1,"").split("/")[0]===a.location.host)&&("//"===e.substring(0,2)&&(e=a.location.protocol+e),d.push({href:e,media:f})))}w()};x(),c.update=x,c.getEmValue=t,a.addEventListener?a.addEventListener("resize",b,!1):a.attachEvent&&a.attachEvent("onresize",b)}}(this);
 };
 </script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script>
 
 /**
@@ -442,38 +451,13 @@ color: #d14;
           theseArgs = theseArgs.concat([task.data]);
           task = task.code;
         }
-        var taskFunc = tryEval(task);
+        var taskFunc = eval("(" + task + ")");
         if (typeof(taskFunc) !== "function") {
           throw new Error("Task must be a function! Source:\n" + task);
         }
         taskFunc.apply(target, theseArgs);
       });
     }
-  }
-
-  // Attempt eval() both with and without enclosing in parentheses.
-  // Note that enclosing coerces a function declaration into
-  // an expression that eval() can parse
-  // (otherwise, a SyntaxError is thrown)
-  function tryEval(code) {
-    var result = null;
-    try {
-      result = eval(code);
-    } catch(error) {
-      if (!error instanceof SyntaxError) {
-        throw error;
-      }
-      try {
-        result = eval("(" + code + ")");
-      } catch(e) {
-        if (e instanceof SyntaxError) {
-          throw error;
-        } else {
-          throw e;
-        }
-      }
-    }
-    return result;
   }
 
   function initSizing(el) {
@@ -868,56 +852,17 @@ color: #d14;
     invokePostRenderHandlers();
   }
 
-
-  function has_jQuery3() {
-    if (!window.jQuery) {
-      return false;
-    }
-    var $version = window.jQuery.fn.jquery;
-    var $major_version = parseInt($version.split(".")[0]);
-    return $major_version >= 3;
-  }
-
-  /*
-  / Shiny 1.4 bumped jQuery from 1.x to 3.x which means jQuery's
-  / on-ready handler (i.e., $(fn)) is now asyncronous (i.e., it now
-  / really means $(setTimeout(fn)).
-  / https://jquery.com/upgrade-guide/3.0/#breaking-change-document-ready-handlers-are-now-asynchronous
-  /
-  / Since Shiny uses $() to schedule initShiny, shiny>=1.4 calls initShiny
-  / one tick later than it did before, which means staticRender() is
-  / called renderValue() earlier than (advanced) widget authors might be expecting.
-  / https://github.com/rstudio/shiny/issues/2630
-  /
-  / For a concrete example, leaflet has some methods (e.g., updateBounds)
-  / which reference Shiny methods registered in initShiny (e.g., setInputValue).
-  / Since leaflet is privy to this life-cycle, it knows to use setTimeout() to
-  / delay execution of those methods (until Shiny methods are ready)
-  / https://github.com/rstudio/leaflet/blob/18ec981/javascript/src/index.js#L266-L268
-  /
-  / Ideally widget authors wouldn't need to use this setTimeout() hack that
-  / leaflet uses to call Shiny methods on a staticRender(). In the long run,
-  / the logic initShiny should be broken up so that method registration happens
-  / right away, but binding happens later.
-  */
-  function maybeStaticRenderLater() {
-    if (shinyMode && has_jQuery3()) {
-      window.jQuery(window.HTMLWidgets.staticRender);
-    } else {
-      window.HTMLWidgets.staticRender();
-    }
-  }
-
+  // Wait until after the document has loaded to render the widgets.
   if (document.addEventListener) {
     document.addEventListener("DOMContentLoaded", function() {
       document.removeEventListener("DOMContentLoaded", arguments.callee, false);
-      maybeStaticRenderLater();
+      window.HTMLWidgets.staticRender();
     }, false);
   } else if (document.attachEvent) {
     document.attachEvent("onreadystatechange", function() {
       if (document.readyState === "complete") {
         document.detachEvent("onreadystatechange", arguments.callee);
-        maybeStaticRenderLater();
+        window.HTMLWidgets.staticRender();
       }
     });
   }
@@ -1005,7 +950,7 @@ color: #d14;
       if (o !== null && typeof o === "object" && part in o) {
         if (i == (l - 1)) { // if we are at the end of the line then evalulate
           if (typeof o[part] === "string")
-            o[part] = tryEval(o[part]);
+            o[part] = eval("(" + o[part] + ")");
         } else { // otherwise continue to next embedded object
           o = o[part];
         }
@@ -5391,12 +5336,16 @@ HTMLWidgets.widget({
 });
 </script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -5409,32 +5358,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -5444,10 +5368,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -5464,6 +5384,9 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
@@ -5476,7 +5399,6 @@ summary {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -5540,7 +5462,7 @@ summary {
 
 
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -5559,14 +5481,14 @@ summary {
 </div>
 <div id="publications" class="section level3">
 <h3>Publications</h3>
-<div id="htmlwidget-6567d76e4c589d361756" style="width:672px;height:480px;" class="visNetwork html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6567d76e4c589d361756">{"x":{"nodes":{"id":["EleanorPower","RobertLosey","DouglasMcCauley","DouglasBird","AlexMcInturff","RobertDunbar","WilliamDurham","FiorenzaMicheli","HillaryYoung","RogerGuevara","GarethWilliams","RebeccaBird","CaterinaDeBacco","DanielLarremore","CrisMoore","ElspethReady","JessicaBarker","StephenHeap","MikaelPuurtinen","RichardSosis","Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ProsocialSignaling","Primacy","RomanByzantine","DiscerningDevotion","SocialSupport","CommunityDetection","PraxisDoxa","WhyWageEarners","SocialSignificance","CollectiveRitual","BuildingBigness","ContentCostContext","CooperationBeyond","KinshipTies","JeremyKoster","DieterLukas","DavidNolin","AlexAlvergne","RuthMace","CodyRoss","KarenKramer","RussellGreaves","MarkCaudell","ShaneMacfarlan","EricSchniter","RobertQuinlan","SiobhanMattison","AdamReynolds","ChunYiSum","EricMassengill","BeneficialEpidemics","AndrewBerdahl","ChristaBrelsford","MarionDumas","VanessaFerdinand","JoshuaGrochow","LaurentHebertDufresne","YoavKallus","ChristopherKempes","ArtemyKolchinsky","EricLibby","CaitlinStern","BrendanTracey","MartinaContisciani","MTCov","ChurchAttendance","JohnShaver","BenjaminPurzycki","JosephWatts","RebeccaSear","MaryShenk","JosephBulbulia","USNSF","UKRIESRC","MatthewJackson","SamuelBowles","MoniqueBorgerhoffMulder","DanielRedhead","WhenReputationLies","NoGoodDeed","NetworksReputation","NicholaRaihani","KarolyTakacs","JoergGross","MartinaTestori","SrebrenkaLetina","AdamKenny","RafaelWittek","SocialHierarchies","FourPuzzles","DanielBalliet","SzabolcsSzamado","FrancescaGiardini","LanguageCoop"],"type.label":["Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Article","Author","Author","Author","Author","Author","Author","Grant","Grant","Author","Author","Author","Author","Article","Article","Article","Author","Author","Author","Author","Author","Author","Author","Article","Article","Author","Author","Author","Article"],"title":["Eleanor Power","Robert Losey","Douglas McCauley","Douglas Bird","Alex McInturff","Rob Dunbar","Bill Durham","Fiorenza Micheli","Hillary Young","Roger Guevara","Gareth J. Williams","Rebecca Bliege Bird","Caterina De Bacco","Daniel Larremore","Cris Moore","Elspeth Ready","Jessica Barker","Stephen Heap","Mikael Puurtinen","Richard Sosis","Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample ","Conservation at the Edges of the World ","Pushing Back Against Paper-Park Pushers ","Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems ","Prosocial Signaling and Cooperation Among Martu Hunters ","The Primacy of Social Support ","The Roman-Byzantine Baths Adjacent to the Great Temple ","Discerning Devotion: Testing the Signaling Theory of Religion ","Social Support Networks and Religiosity in Rural South India ","Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks ","Praxis and Doxa: What a Focus on Ritual Can Offer Evolutionary Explanations of Religion ","Why Wage-Earners Hunt: Food Sharing, Social Structure, & Influence in an Arctic Mixed Economy ","The Social Significance of Subtle Signals ","Collective Ritual and Social Support Networks in Rural South India ","Building Bigness: Reputation, Prominence, and Social Capital in Rural South India ","Content, Cost, and Context: A Framework for Understanding Human Signaling Systems ","Cooperation Beyond Consanguinity: Post-Marital Residence, Delineations of Kin, and Social Support Among South Indian Tamils ","Kinship Ties Across the Lifespan in Human Communities","Jeremy Koster","Dieter Lukas","David Nolin","Alex Alvergne","Ruth Mace","Cody Ross","Karen Kramer","Russell Greaves","Mark Caudell","Shane Macfarlan","Eric Schniter","Robert Quinlan","Siobhan Mattison","Adam Reynolds","Chun Yi-Sum","Eric Massengill","Dynamics of Beneficial Epidemics","Andrew Berdahl","Christa Brelsford","Marion Dumas","Vanessa Ferdinand","Joshua A. Grochow","Laurent Hebert Dufresne","Yoav Kallus","Christopher Kempes","Artemy Kolchinsky","Eric Libby","Caitlin Stern","Brendan Tracey","Martina Contisciani","Community detection with node attributes in multilayer networks","Church Attendance and Alloparenting: An Analysis of Fertility, Social Support, and Child Development Among English Mothers","John Shaver","Benjamin G. Purzycki","Joseph Watts","Rebecca Sear","Mary K. Shenk","Joseph A. Bulbulia","The Effect of Social Networks on Inequality","Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality","Matthew Jackson","Samuel Bowles","Monique Borgerhoff Mulder","Daniel Redhead","When Does Reputation Lie?","No Good Deed Goes Unpunished","Networks of Reliable Reputation and Cooperation","Nichola Raihani","Karoly Takacs","Joerg Gross","Martina Testori","Srebrenka Letina","Adam Kenny","Rafael Wittek","Social Hierarchies and Social Networks in Humans","Four Puzzles of Reputation-Based Cooperation","Daniel Balliet","Szabolcs Szamado","Francesca Giardini","The Language of Cooperation"],"year":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2005,2013,2014,2014,2015,2016,2017,2017,2017,2017,2018,2018,2018,2018,2018,2019,2019,2019,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2019,null,null,null,null,null,null,null,null,null,null,null,null,null,2020,2020,null,null,null,null,null,null,null,null,null,null,null,null,2021,2021,2021,null,null,null,null,null,null,null,2021,2021,null,null,null,2021],"venue":["LSE","Alberta","UCSB","Penn State","UC Berkley","Stanford","Stanford","Stanford","UCSB","INECOL","Bangor","Penn State","MPI-IS","U Colorado","SFI","MPI-EVA","Behavioural Insights","","Jyv<8a>skyl<8a>","UConn","Journal of Northwest Anthropology","Biological Conservation","Biological Conservation","Conservation Biology","Evolution and Human Behavior","Religion Brain and Behavior","Petra Great Temple Volume 3","Evolution and Human Behavior","Nature Human Behaviour","Physical Review E","Religion Brain and Behavior","Current Anthropology","Nature Human Behaviour","Proceedings of the Royal Society B","American Anthropologist","Evolutionary Anthropology","Philosophical Transactions of the Royal Society B","Philosophical Transactions of the Royal Society B","U Cincinnati","MPI-EVA","Penn State","Oxford","UCL","MPI-EVA","Utah","Utah","WSU","Utah","Chapman","WSU","UNM","UNM","UNM","UNM","Scientific Reports","UWash","Oak Ridge","LSE","Melbourne School of Psychological Sciences","U Colorado","U Vermont","SFI","SFI","SFI","Umea U","SFI","Deep Mind","MPI-IS","Scientific Reports","Philosophical Transactions of the Royal Society B","U Otago","Aarhus U","U Otago","LSHTM","Penn State","U Auckland","US NSF","ESRC","Stanford","SFI","UC Davis","MPI-EVA","Philosophical Transactions of the Royal Society B","Evolutionary Human Sciences","Philosophical Transactions of the Royal Society B","UCL","Link<9a>ping U","Leiden U","VU Amsterdam","Link<9a>ping U","Oxford","U Groningen","","Human Nature","VU Amsterdam","BUTE","U Groningen","Philosophical Transactions of the Royal Society B"],"color":["#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#1b9e77","#1b9e77","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#74add1","#74add1","#74add1","#fdae61"],"shape":["dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","square","dot","dot","dot","dot","dot","dot","diamond","diamond","dot","dot","dot","dot","square","square","square","dot","dot","dot","dot","dot","dot","dot","square","square","dot","dot","dot","square"]},"edges":{"from":["EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","RobertLosey","DouglasMcCauley","DouglasMcCauley","DouglasMcCauley","DouglasBird","DouglasBird","DouglasBird","AlexMcInturff","AlexMcInturff","RobertDunbar","RobertDunbar","RobertDunbar","WilliamDurham","WilliamDurham","WilliamDurham","FiorenzaMicheli","FiorenzaMicheli","FiorenzaMicheli","HillaryYoung","HillaryYoung","HillaryYoung","RogerGuevara","GarethWilliams","RebeccaBird","RebeccaBird","CaterinaDeBacco","DanielLarremore","CrisMoore","ElspethReady","ElspethReady","ElspethReady","ElspethReady","JessicaBarker","StephenHeap","MikaelPuurtinen","RichardSosis","EleanorPower","JeremyKoster","DieterLukas","DavidNolin","AlexAlvergne","RuthMace","CodyRoss","KarenKramer","RussellGreaves","MarkCaudell","ShaneMacfarlan","EricSchniter","RobertQuinlan","SiobhanMattison","AdamReynolds","ChunYiSum","EricMassengill","EleanorPower","CaterinaDeBacco","DanielLarremore","AndrewBerdahl","ChristaBrelsford","MarionDumas","VanessaFerdinand","JoshuaGrochow","LaurentHebertDufresne","YoavKallus","ChristopherKempes","ArtemyKolchinsky","EricLibby","CaitlinStern","BrendanTracey","EleanorPower","CaterinaDeBacco","MartinaContisciani","EleanorPower","JohnShaver","BenjaminPurzycki","JosephWatts","RebeccaSear","MaryShenk","JosephBulbulia","RichardSosis","MatthewJackson","SamuelBowles","MoniqueBorgerhoffMulder","JeremyKoster","EleanorPower","CaterinaDeBacco","DanielRedhead","EleanorPower","MarionDumas","JessicaBarker","EleanorPower","NicholaRaihani","EleanorPower","KarolyTakacs","JoergGross","MartinaTestori","SrebrenkaLetina","AdamKenny","RafaelWittek","EleanorPower","DanielRedhead","EleanorPower","FrancescaGiardini","KarolyTakacs","DanielBalliet","SzabolcsSzamado","EleanorPower","FrancescaGiardini","KarolyTakacs","DanielBalliet","SzabolcsSzamado","EleanorPower"],"to":["Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ProsocialSignaling","Primacy","RomanByzantine","DiscerningDevotion","SocialSupport","CommunityDetection","PraxisDoxa","WhyWageEarners","SocialSignificance","CollectiveRitual","BuildingBigness","ContentCostContext","CooperationBeyond","Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","PositiveNegative","PositiveNegative","ProsocialSignaling","SocialSignificance","CommunityDetection","CommunityDetection","CommunityDetection","WhyWageEarners","SocialSignificance","BuildingBigness","CooperationBeyond","ContentCostContext","ContentCostContext","ContentCostContext","ContentCostContext","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","MTCov","MTCov","MTCov","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","USNSF","USNSF","USNSF","USNSF","USNSF","UKRIESRC","UKRIESRC","UKRIESRC","WhenReputationLies","WhenReputationLies","WhenReputationLies","NoGoodDeed","NoGoodDeed","NetworksReputation","NetworksReputation","NetworksReputation","NetworksReputation","NetworksReputation","NetworksReputation","NetworksReputation","SocialHierarchies","SocialHierarchies","LanguageCoop","LanguageCoop","LanguageCoop","LanguageCoop","LanguageCoop","FourPuzzles","FourPuzzles","FourPuzzles","FourPuzzles","FourPuzzles"]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"dot"},"manipulation":{"enabled":false}},"groups":null,"width":null,"height":null,"idselection":{"enabled":false},"byselection":{"enabled":false},"main":null,"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-2ab10f3d147e74d2dcd1" style="width:672px;height:480px;" class="visNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2ab10f3d147e74d2dcd1">{"x":{"nodes":{"id":["EleanorPower","RobertLosey","DouglasMcCauley","DouglasBird","AlexMcInturff","RobertDunbar","WilliamDurham","FiorenzaMicheli","HillaryYoung","RogerGuevara","GarethWilliams","RebeccaBird","CaterinaDeBacco","DanielLarremore","CrisMoore","ElspethReady","JessicaBarker","StephenHeap","MikaelPuurtinen","RichardSosis","Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ProsocialSignaling","Primacy","RomanByzantine","DiscerningDevotion","SocialSupport","CommunityDetection","PraxisDoxa","WhyWageEarners","SocialSignificance","CollectiveRitual","BuildingBigness","ContentCostContext","CooperationBeyond","KinshipTies","JeremyKoster","DieterLukas","DavidNolin","AlexAlvergne","RuthMace","CodyRoss","KarenKramer","RussellGreaves","MarkCaudell","ShaneMacfarlan","EricSchniter","RobertQuinlan","SiobhanMattison","AdamReynolds","ChunYiSum","EricMassengill","BeneficialEpidemics","AndrewBerdahl","ChristaBrelsford","MarionDumas","VanessaFerdinand","JoshuaGrochow","LaurentHebertDufresne","YoavKallus","ChristopherKempes","ArtemyKolchinsky","EricLibby","CaitlinStern","BrendanTracey","MartinaContisciani","MTCov","ChurchAttendance","JohnShaver","BenjaminPurzycki","JosephWatts","RebeccaSear","MaryShenk","JosephBulbulia","USNSF","UKRIESRC","MatthewJackson","SamuelBowles","MoniqueBorgerhoffMulder","DanielRedhead","WhenReputationLies","NoGoodDeed","NetworksReputation","NicholaRaihani","KarolyTakacs","JoergGross","MartinaTestori","SrebrenkaLetina","AdamKenny","RafaelWittek","SocialHierarchies","FourPuzzles","DanielBalliet","SzabolcsSzamado","FrancescaGiardini","LanguageCoop"],"type.label":["Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Article","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Author","Article","Article","Author","Author","Author","Author","Author","Author","Grant","Grant","Author","Author","Author","Author","Article","Article","Article","Author","Author","Author","Author","Author","Author","Author","Article","Article","Author","Author","Author","Article"],"title":["Eleanor Power","Robert Losey","Douglas McCauley","Douglas Bird","Alex McInturff","Rob Dunbar","Bill Durham","Fiorenza Micheli","Hillary Young","Roger Guevara","Gareth J. Williams","Rebecca Bliege Bird","Caterina De Bacco","Daniel Larremore","Cris Moore","Elspeth Ready","Jessica Barker","Stephen Heap","Mikael Puurtinen","Richard Sosis","Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample ","Conservation at the Edges of the World ","Pushing Back Against Paper-Park Pushers ","Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems ","Prosocial Signaling and Cooperation Among Martu Hunters ","The Primacy of Social Support ","The Roman-Byzantine Baths Adjacent to the Great Temple ","Discerning Devotion: Testing the Signaling Theory of Religion ","Social Support Networks and Religiosity in Rural South India ","Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks ","Praxis and Doxa: What a Focus on Ritual Can Offer Evolutionary Explanations of Religion ","Why Wage-Earners Hunt: Food Sharing, Social Structure, & Influence in an Arctic Mixed Economy ","The Social Significance of Subtle Signals ","Collective Ritual and Social Support Networks in Rural South India ","Building Bigness: Reputation, Prominence, and Social Capital in Rural South India ","Content, Cost, and Context: A Framework for Understanding Human Signaling Systems ","Cooperation Beyond Consanguinity: Post-Marital Residence, Delineations of Kin, and Social Support Among South Indian Tamils ","Kinship Ties Across the Lifespan in Human Communities","Jeremy Koster","Dieter Lukas","David Nolin","Alex Alvergne","Ruth Mace","Cody Ross","Karen Kramer","Russell Greaves","Mark Caudell","Shane Macfarlan","Eric Schniter","Robert Quinlan","Siobhan Mattison","Adam Reynolds","Chun Yi-Sum","Eric Massengill","Dynamics of Beneficial Epidemics","Andrew Berdahl","Christa Brelsford","Marion Dumas","Vanessa Ferdinand","Joshua A. Grochow","Laurent Hebert Dufresne","Yoav Kallus","Christopher Kempes","Artemy Kolchinsky","Eric Libby","Caitlin Stern","Brendan Tracey","Martina Contisciani","Community detection with node attributes in multilayer networks","Church Attendance and Alloparenting: An Analysis of Fertility, Social Support, and Child Development Among English Mothers","John Shaver","Benjamin G. Purzycki","Joseph Watts","Rebecca Sear","Mary K. Shenk","Joseph A. Bulbulia","The Effect of Social Networks on Inequality","Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality","Matthew Jackson","Samuel Bowles","Monique Borgerhoff Mulder","Daniel Redhead","When Does Reputation Lie?","No Good Deed Goes Unpunished","Networks of Reliable Reputation and Cooperation","Nichola Raihani","Karoly Takacs","Joerg Gross","Martina Testori","Srebrenka Letina","Adam Kenny","Rafael Wittek","Social Hierarchies and Social Networks in Humans","Four Puzzles of Reputation-Based Cooperation","Daniel Balliet","Szabolcs Szamado","Francesca Giardini","The Language of Cooperation"],"year":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2005,2013,2014,2014,2015,2016,2017,2017,2017,2017,2018,2018,2018,2018,2018,2019,2019,2019,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2019,null,null,null,null,null,null,null,null,null,null,null,null,null,2020,2020,null,null,null,null,null,null,null,null,null,null,null,null,2021,2021,2021,null,null,null,null,null,null,null,2021,2021,null,null,null,2021],"venue":["LSE","Alberta","UCSB","Penn State","UC Berkley","Stanford","Stanford","Stanford","UCSB","INECOL","Bangor","Penn State","MPI-IS","U Colorado","SFI","MPI-EVA","Behavioural Insights","","Jyv<8a>skyl<8a>","UConn","Journal of Northwest Anthropology","Biological Conservation","Biological Conservation","Conservation Biology","Evolution and Human Behavior","Religion Brain and Behavior","Petra Great Temple Volume 3","Evolution and Human Behavior","Nature Human Behaviour","Physical Review E","Religion Brain and Behavior","Current Anthropology","Nature Human Behaviour","Proceedings of the Royal Society B","American Anthropologist","Evolutionary Anthropology","Philosophical Transactions of the Royal Society B","Philosophical Transactions of the Royal Society B","U Cincinnati","MPI-EVA","Penn State","Oxford","UCL","MPI-EVA","Utah","Utah","WSU","Utah","Chapman","WSU","UNM","UNM","UNM","UNM","Scientific Reports","UWash","Oak Ridge","LSE","Melbourne School of Psychological Sciences","U Colorado","U Vermont","SFI","SFI","SFI","Umea U","SFI","Deep Mind","MPI-IS","Scientific Reports","Philosophical Transactions of the Royal Society B","U Otago","Aarhus U","U Otago","LSHTM","Penn State","U Auckland","US NSF","ESRC","Stanford","SFI","UC Davis","MPI-EVA","Philosophical Transactions of the Royal Society B","Evolutionary Human Sciences","Philosophical Transactions of the Royal Society B","UCL","Link<9a>ping U","Leiden U","VU Amsterdam","Link<9a>ping U","Oxford","U Groningen","","Human Nature","VU Amsterdam","BUTE","U Groningen","Philosophical Transactions of the Royal Society B"],"color":["#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#1b9e77","#1b9e77","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#fdae61","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#74add1","#fdae61","#fdae61","#74add1","#74add1","#74add1","#fdae61"],"shape":["dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","square","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","dot","square","square","dot","dot","dot","dot","dot","dot","diamond","diamond","dot","dot","dot","dot","square","square","square","dot","dot","dot","dot","dot","dot","dot","square","square","dot","dot","dot","square"]},"edges":{"from":["EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","EleanorPower","RobertLosey","DouglasMcCauley","DouglasMcCauley","DouglasMcCauley","DouglasBird","DouglasBird","DouglasBird","AlexMcInturff","AlexMcInturff","RobertDunbar","RobertDunbar","RobertDunbar","WilliamDurham","WilliamDurham","WilliamDurham","FiorenzaMicheli","FiorenzaMicheli","FiorenzaMicheli","HillaryYoung","HillaryYoung","HillaryYoung","RogerGuevara","GarethWilliams","RebeccaBird","RebeccaBird","CaterinaDeBacco","DanielLarremore","CrisMoore","ElspethReady","ElspethReady","ElspethReady","ElspethReady","JessicaBarker","StephenHeap","MikaelPuurtinen","RichardSosis","EleanorPower","JeremyKoster","DieterLukas","DavidNolin","AlexAlvergne","RuthMace","CodyRoss","KarenKramer","RussellGreaves","MarkCaudell","ShaneMacfarlan","EricSchniter","RobertQuinlan","SiobhanMattison","AdamReynolds","ChunYiSum","EricMassengill","EleanorPower","CaterinaDeBacco","DanielLarremore","AndrewBerdahl","ChristaBrelsford","MarionDumas","VanessaFerdinand","JoshuaGrochow","LaurentHebertDufresne","YoavKallus","ChristopherKempes","ArtemyKolchinsky","EricLibby","CaitlinStern","BrendanTracey","EleanorPower","CaterinaDeBacco","MartinaContisciani","EleanorPower","JohnShaver","BenjaminPurzycki","JosephWatts","RebeccaSear","MaryShenk","JosephBulbulia","RichardSosis","MatthewJackson","SamuelBowles","MoniqueBorgerhoffMulder","JeremyKoster","EleanorPower","CaterinaDeBacco","DanielRedhead","EleanorPower","MarionDumas","JessicaBarker","EleanorPower","NicholaRaihani","EleanorPower","KarolyTakacs","JoergGross","MartinaTestori","SrebrenkaLetina","AdamKenny","RafaelWittek","EleanorPower","DanielRedhead","EleanorPower","FrancescaGiardini","KarolyTakacs","DanielBalliet","SzabolcsSzamado","EleanorPower","FrancescaGiardini","KarolyTakacs","DanielBalliet","SzabolcsSzamado","EleanorPower"],"to":["Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ProsocialSignaling","Primacy","RomanByzantine","DiscerningDevotion","SocialSupport","CommunityDetection","PraxisDoxa","WhyWageEarners","SocialSignificance","CollectiveRitual","BuildingBigness","ContentCostContext","CooperationBeyond","Shellfish","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","ConservationAtTheEdge","PushingBack","PositiveNegative","PositiveNegative","PositiveNegative","ProsocialSignaling","SocialSignificance","CommunityDetection","CommunityDetection","CommunityDetection","WhyWageEarners","SocialSignificance","BuildingBigness","CooperationBeyond","ContentCostContext","ContentCostContext","ContentCostContext","ContentCostContext","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","KinshipTies","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","BeneficialEpidemics","MTCov","MTCov","MTCov","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","ChurchAttendance","USNSF","USNSF","USNSF","USNSF","USNSF","UKRIESRC","UKRIESRC","UKRIESRC","WhenReputationLies","WhenReputationLies","WhenReputationLies","NoGoodDeed","NoGoodDeed","NetworksReputation","NetworksReputation","NetworksReputation","NetworksReputation","NetworksReputation","NetworksReputation","NetworksReputation","SocialHierarchies","SocialHierarchies","LanguageCoop","LanguageCoop","LanguageCoop","LanguageCoop","LanguageCoop","FourPuzzles","FourPuzzles","FourPuzzles","FourPuzzles","FourPuzzles"]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"dot"},"manipulation":{"enabled":false}},"groups":null,"width":null,"height":null,"idselection":{"enabled":false},"byselection":{"enabled":false},"main":null,"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)"},"evals":[],"jsHooks":[]}</script>
 <ul>
-<li><p>2021. Szabolcs Számadó, Daniel Balliet, Francesca Giardini, <strong>Eleanor A. Power</strong>, and Károly Takács. The language of cooperation: reputation and honest signalling. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. Accepted. [introduction to the special issue]</p></li>
 <li><p>2021. Francesca Giardini, Daniel Balliet, <strong>Eleanor A. Power</strong>, Szabolcs Számadó, and Károly Takács. Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure. <em>Human Nature</em>. Accepted.</p></li>
 <li><p>2021. Daniel J. Redhead and <strong>Eleanor A. Power</strong>. <a href="https://psyarxiv.com/3upzy/">Social hierarchies and social networks in humans</a>. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. Accepted.</p></li>
-<li><p>2021. Marion Dumas, Jessica Barker, and <strong>Eleanor A. Power</strong>. When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. Accepted. <a href="https://github.com/eapower/when-does-reputation-lie">Code</a>.</p></li>
-<li><p>2021. Károly Takács, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, <strong>Eleanor A. Power</strong>, and Rafael P. M. Wittek. Networks of reliable reputation and cooperation: a review. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. Accepted.</p></li>
+<li><p>2021. Szabolcs Számadó, Daniel Balliet, Francesca Giardini, <strong>Eleanor A. Power</strong>, and Károly Takács. <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0286">The language of cooperation: reputation and honest signalling</a>. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. 376(1838):20200286. [introduction to the <a href="https://royalsocietypublishing.org/toc/rstb/376/1838">theme issue</a> of the same name.]</p></li>
+<li><p>2021. Marion Dumas, Jessica Barker, and <strong>Eleanor A. Power</strong>. <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0298">When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence</a>. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. 376(1838):20200298. <a href="https://github.com/eapower/when-does-reputation-lie">Code</a>.</p></li>
+<li><p>2021. Károly Takács, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, <strong>Eleanor A. Power</strong>, and Rafael P. M. Wittek. <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0297">Networks of reliable reputation and cooperation: a review</a>. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. 376(1838):20200297.</p></li>
 <li><p>2021. Nichola Raihani and <strong>Eleanor A. Power</strong>. <a href="https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/no-good-deed-goes-unpunished-the-social-costs-of-prosocial-behaviour/31F863563C2231AEF7634996A0C4614F">No good deed goes unpunished: the social costs of prosocial behaviour</a>. <em>Evolutionary Human Sciences</em>. 3, E40.</p></li>
 <li><p>2020. Martina Contisciani, <strong>Eleanor A. Power</strong>, Caterina De Bacco. <a href="https://www.nature.com/articles/s41598-020-72626-y">Community Detection with Node Attributes in Multilayer Networks</a>. <em>Scientific Reports</em>. 10:15736.</p></li>
 <li><p>2020. John H. Shaver, <strong>Eleanor A. Power</strong>, Benjamin G. Purzycki, Joseph Watts, Rebecca Sear, Mary K. Shenk, Richard Sosis, and Joseph A. Bulbulia. <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0428">Church attendance and alloparenting: An analysis of fertility, social support, and child development among English mothers</a>. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>. 375(1805):20190428.</p></li>
@@ -5604,6 +5526,7 @@ summary {
 <h3>Code &amp; Data</h3>
 <p>Researchers interested in getting access to the data used in the papers listed below should email me!</p>
 <ul>
+<li><p>Code repository for <a href="https://github.com/eapower/when-does-reputation-lie">When Does Reputation Lie?</a></p></li>
 <li><p>Code repository for <a href="https://github.com/eapower/Kinship">Cooperation Beyond Consanguinity</a></p></li>
 <li><p>Code repository for <a href="https://github.com/eapower/BuildingBigness">Building Bigness</a></p></li>
 <li><p>Code repository for <a href="https://github.com/eapower/CollectiveRitual">Collective Ritual and Social Support Networks in Rural South India</a></p></li>
@@ -5620,13 +5543,12 @@ summary {
 </ul>
 <hr />
 </div>
-<div id="teaching" class="section level3">
-<h3>Teaching</h3>
+<div id="current-teaching" class="section level3">
+<h3>Current Teaching</h3>
 <ul>
-<li><p>MY401. <a href="http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY401.htm">Research Design for Studies in Digital Innovation</a></p></li>
-<li><p>MY410. <a href="http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY410.htm">Fundamentals of Research Design for International Development</a></p></li>
-<li><p>MY451. <a href="http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY451.htm">Introduction to Quantitative Analysis</a></p></li>
-<li><p>MY461. <a href="http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY461.htm">Social Network Analysis</a></p></li>
+<li><p>MY401. <a href="https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY401.htm">Research Design for Studies in Digital Innovation</a></p></li>
+<li><p>MY410. <a href="https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY410.htm">Fundamentals of Research Design for International Development</a></p></li>
+<li><p>MY461. <a href="http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY461.htm">Social Network Analysis</a></p></li>
 </ul>
 <hr />
 </div>
@@ -5653,7 +5575,7 @@ London, WC2A 2AE</p>
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -5671,7 +5593,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

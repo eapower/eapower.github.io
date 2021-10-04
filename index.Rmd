@@ -24,15 +24,17 @@ require(visNetwork)
 visNetwork(vis.nodes,vis.edges)
 ```
 
-* 2021\. Szabolcs Számadó, Daniel Balliet, Francesca Giardini,  **Eleanor A. Power**, and Károly Takács. The language of cooperation: reputation and honest signalling. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. [introduction to the special issue]
+
 
 * 2021\. Francesca Giardini, Daniel Balliet, **Eleanor A. Power**, Szabolcs Számadó, and Károly Takács. Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure. *Human Nature*. Accepted. 
 
 * 2021\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://psyarxiv.com/3upzy/). *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. 
 
-* 2021\. Marion Dumas, Jessica Barker, and **Eleanor A. Power**. When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. [Code](https://github.com/eapower/when-does-reputation-lie).
+* 2021\. Szabolcs Számadó, Daniel Balliet, Francesca Giardini,  **Eleanor A. Power**, and Károly Takács. [The language of cooperation: reputation and honest signalling](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0286). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200286. [introduction to the [theme issue](https://royalsocietypublishing.org/toc/rstb/376/1838) of the same name.]
 
-* 2021\. Károly Takács, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, **Eleanor A. Power**, and Rafael P. M. Wittek. Networks of reliable reputation and cooperation: a review. *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted.
+* 2021\. Marion Dumas, Jessica Barker, and **Eleanor A. Power**. [When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0298). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200298. [Code](https://github.com/eapower/when-does-reputation-lie).
+
+* 2021\. Károly Takács, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, **Eleanor A. Power**, and Rafael P. M. Wittek. [Networks of reliable reputation and cooperation: a review](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0297). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200297.
 
 * 2021\. Nichola Raihani and **Eleanor A. Power**. [No good deed goes unpunished: the social costs of prosocial behaviour](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/no-good-deed-goes-unpunished-the-social-costs-of-prosocial-behaviour/31F863563C2231AEF7634996A0C4614F). *Evolutionary Human Sciences*. 3, E40. 
 
@@ -94,6 +96,8 @@ visNetwork(vis.nodes,vis.edges)
 
 Researchers interested in getting access to the data used in the papers listed below should email me!
 
+* Code repository for [When Does Reputation Lie?](https://github.com/eapower/when-does-reputation-lie)
+
 * Code repository for [Cooperation Beyond Consanguinity](https://github.com/eapower/Kinship)
 
 * Code repository for [Building Bigness](https://github.com/eapower/BuildingBigness)
@@ -118,15 +122,13 @@ Researchers interested in getting access to the data used in the papers listed b
 
 ---------------------
 
-### Teaching
+### Current Teaching
 
-* MY401. [Research Design for Studies in Digital Innovation](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY401.htm)
+* MY401. [Research Design for Studies in Digital Innovation](https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY401.htm)
 
-* MY410. [Fundamentals of Research Design for International Development](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY410.htm)
+* MY410. [Fundamentals of Research Design for International Development](https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY410.htm)
 
-* MY451. [Introduction to Quantitative Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY451.htm)
-
-* MY461. [Social Network Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2018_MY461.htm)
+* MY461. [Social Network Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY461.htm)
 
 ---------------------
 
