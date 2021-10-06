@@ -16,6 +16,14 @@ I am currently an assistant professor in the [Department of Methodology](https:/
 
 ---------------------
 
+<!--### New Theme Issue!
+
+Check out the new theme issue of *Philosophical Transactions of the Royal Society B: Biological Sciences*, "[The language of cooperation: reputation and honest signalling](https://royalsocietypublishing.org/toc/rstb/376/1838)" co-edited by Szabolcs Számadó, Daniel Balliet, Francesca Giardini, Károly Takács, and me, with the cover showing one of the villages that I work in:
+
+[![](ptrsb_front.png){width=30%}](https://royalsocietypublishing.org/toc/rstb/376/1838)
+
+--------------------- -->
+
 ### Publications
 ```{r, message=FALSE,echo=FALSE,warning=FALSE}
 vis.nodes<-read.csv("nodes.csv",header=TRUE)
@@ -79,7 +87,6 @@ visNetwork(vis.nodes,vis.edges)
 * 2013\. Douglas J. McCauley, **Eleanor A. Power**, Douglas W. Bird, Alex McInturff, Robert B. Dunbar, William H. Durham, Fiorenza Micheli, \& Hillary S. Young. [Conservation at the Edges of the World](https://www.sciencedirect.com/science/article/pii/S0006320713001766). *Biological Conservation*. 165:139-145.
 
 * 2005\. Robert J. Losey and **Eleanor A. Power**. Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample. *Journal of Northwest Anthropology*. 39(1):1-20.
-
 
 ---------------------
 
