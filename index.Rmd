@@ -32,7 +32,7 @@ require(visNetwork)
 visNetwork(vis.nodes,vis.edges)
 ```
 
-
+* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring reciprocity: double sampling, concordance, and network construction](https://osf.io/preprints/socarxiv/7sx8p/). *Network Science*. Accepted. 
 
 * 2021\. Francesca Giardini, Daniel Balliet, **Eleanor A. Power**, Szabolcs Számadó, and Károly Takács. Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure. *Human Nature*. Accepted. 
 
