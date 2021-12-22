@@ -18,11 +18,14 @@ require(visNetwork)
 visNetwork(vis.nodes,vis.edges)
 
 ```
-* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring reciprocity: double sampling, concordance, and network construction](https://osf.io/preprints/socarxiv/7sx8p/). *Network Science*. Accepted. 
+
+* 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://psyarxiv.com/3upzy/). *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. 
+
+* 2021\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://arxiv.org/abs/2112.11396v1). [ArXiv preprint]
+
+* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring reciprocity: double sampling, concordance, and network construction](https://www.cambridge.org/core/journals/network-science/article/measuring-reciprocity-double-sampling-concordance-and-network-construction/94B76C7BD1954EB5760835D36C53CB68). *Network Science*. 1-16. doi:10.1017/nws.2021.18
 
 * 2021\. Francesca Giardini, Daniel Balliet, **Eleanor A. Power**, Szabolcs Számadó, and Károly Takács. Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure. *Human Nature*. Accepted. 
-
-* 2021\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://psyarxiv.com/3upzy/). *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. 
 
 * 2021\. Szabolcs Számadó, Daniel Balliet, Francesca Giardini,  **Eleanor A. Power**, and Károly Takács. [The language of cooperation: reputation and honest signalling](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0286). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200286. [introduction to the [theme issue](https://royalsocietypublishing.org/toc/rstb/376/1838) of the same name.]
 
@@ -32,7 +35,7 @@ visNetwork(vis.nodes,vis.edges)
 
 * 2021\. Nichola Raihani and **Eleanor A. Power**. [No good deed goes unpunished: the social costs of prosocial behaviour](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/no-good-deed-goes-unpunished-the-social-costs-of-prosocial-behaviour/31F863563C2231AEF7634996A0C4614F). *Evolutionary Human Sciences*. 3, E40. 
 
-* 2020\. Martina Contisciani, **Eleanor A. Power**, Caterina De Bacco. [Community detection with node attributes in multilayer networks](https://www.nature.com/articles/s41598-020-72626-y). *Scientific Reports*. 10(1):15736. 
+* 2020\. Martina Contisciani, **Eleanor A. Power**, Caterina De Bacco. [Community Detection with Node Attributes in Multilayer Networks](https://www.nature.com/articles/s41598-020-72626-y). *Scientific Reports*. 10:15736.
 
 * 2020\. John H. Shaver, **Eleanor A. Power**, Benjamin G. Purzycki, Joseph Watts, Rebecca Sear, Mary K. Shenk, Richard Sosis, and Joseph A. Bulbulia. [Church attendance and alloparenting: An analysis of fertility, social support, and child development among English mothers](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0428). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 375(1805):20190428.
 
