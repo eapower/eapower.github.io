@@ -12,10 +12,11 @@ I am currently an assistant professor in the [Department of Methodology](https:/
 
 ### Publications
 ```{r, message = FALSE, echo = FALSE, warning = FALSE}
-vis.nodes<-read.csv("nodes.csv", header = TRUE)
-vis.edges<-read.csv("edges.csv", header = TRUE)
+vis.nodes <- read.csv("nodes.csv", header = TRUE)
+vis.edges <- read.csv("edges.csv", header = TRUE)
+vis.edges <- subset(vis.edges, vis.edges$from != "EleanorPower")
 require(visNetwork)
-visNetwork(vis.nodes,vis.edges)
+visNetwork(vis.nodes, vis.edges)
 
 ```
 

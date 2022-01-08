@@ -25,11 +25,12 @@ Check out the new theme issue of *Philosophical Transactions of the Royal Societ
 --------------------- -->
 
 ### Publications
-```{r, message=FALSE,echo=FALSE,warning=FALSE}
-vis.nodes<-read.csv("nodes.csv",header=TRUE)
-vis.edges<-read.csv("edges.csv",header=TRUE)
+```{r, message = FALSE, echo = FALSE, warning = FALSE}
+vis.nodes <- read.csv("nodes.csv", header = TRUE)
+vis.edges <- read.csv("edges.csv", header = TRUE)
+vis.edges <- subset(vis.edges, vis.edges$from != "EleanorPower")
 require(visNetwork)
-visNetwork(vis.nodes,vis.edges)
+visNetwork(vis.nodes, vis.edges)
 ```
 
 * 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://psyarxiv.com/3upzy/). *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. 
