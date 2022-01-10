@@ -33,7 +33,7 @@ require(visNetwork)
 visNetwork(vis.nodes, vis.edges)
 ```
 
-* 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://psyarxiv.com/3upzy/). *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. 
+* 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0440). *Philosophical Transactions of the Royal Society B: Biological Sciences*, 377(1845), 20200440. 
 
 * 2021\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://arxiv.org/abs/2112.11396v1). [ArXiv preprint]
 
