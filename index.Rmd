@@ -37,9 +37,9 @@ visNetwork(vis.nodes, vis.edges)
 
 * 2021\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://arxiv.org/abs/2112.11396v1). [ArXiv preprint]
 
-* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring reciprocity: double sampling, concordance, and network construction](https://www.cambridge.org/core/journals/network-science/article/measuring-reciprocity-double-sampling-concordance-and-network-construction/94B76C7BD1954EB5760835D36C53CB68). *Network Science*. 1-16. doi:10.1017/nws.2021.18
+* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring reciprocity: double sampling, concordance, and network construction](https://www.cambridge.org/core/journals/network-science/article/measuring-reciprocity-double-sampling-concordance-and-network-construction/94B76C7BD1954EB5760835D36C53CB68). *Network Science*. 9(4):387-402. 
 
-* 2021\. Francesca Giardini, Daniel Balliet, **Eleanor A. Power**, Szabolcs Számadó, and Károly Takács. [Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure](https://doi.org/10.1007/s12110-021-09419-3). *Human Nature*. 
+* 2021\. Francesca Giardini, Daniel Balliet, **Eleanor A. Power**, Szabolcs Számadó, and Károly Takács. [Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure](https://doi.org/10.1007/s12110-021-09419-3). *Human Nature*. 33:43-61.
 
 * 2021\. Szabolcs Számadó, Daniel Balliet, Francesca Giardini,  **Eleanor A. Power**, and Károly Takács. [The language of cooperation: reputation and honest signalling](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0286). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200286. [introduction to the [theme issue](https://royalsocietypublishing.org/toc/rstb/376/1838) of the same name.]
 
@@ -105,6 +105,8 @@ visNetwork(vis.nodes, vis.edges)
 ### Code & Data
 
 Researchers interested in getting access to the data used in the papers listed below should email me!
+
+* Code to [calculate affinal relatedness](https://github.com/eapower/affinal_relatedness). 
 
 * Code repository for [When Does Reputation Lie?](https://github.com/eapower/when-does-reputation-lie)
 
