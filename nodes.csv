@@ -1,5 +1,4 @@
 id,type.label,title,year,venue,color,shape
-EleanorPower,Author,Eleanor Power,,LSE,#74add1,dot
 RobertLosey,Author,Robert Losey,,Alberta,#74add1,dot
 DouglasMcCauley,Author,Douglas McCauley,,UCSB,#74add1,dot
 DouglasBird,Author,Douglas Bird,,Penn State,#74add1,dot
@@ -105,3 +104,5 @@ DiegoBaptista,Author,Diego Baptista,,MPI-IS,#74add1,dot
 TracySweet,Author,Tracy Sweet,,U Maryland,#74add1,dot
 JeanGabrielYoung,Author,Jean-Gabriel Young,,U Vermont,#74add1,dot
 RichardMcElreath,Author,Richard McElreath,,MPI-EVA,#74add1,dot
+CohenSimpson,Author,Cohen Simpson,,LSE,#74add1,dot
+DynamicsGender,Article,Dynamics of Cooperative Networks Associated with Gender Among South Indian Tamils,2022,,#fdae61,square
