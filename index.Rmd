@@ -12,7 +12,7 @@ I do this with a combination of qualitative and quantitative methods, primary am
 
 I am also the co-director of the [ENDOW project](https://endowproject.github.io/), a collaborative network of social scientists undertaking cross-cultural comparative work. Right now, our main focus is a project investigating the dynamics of social networks and wealth inequality in small communities around the world.
 
-I am currently an assistant professor in the [Department of Methodology](https://www.lse.ac.uk/methodology) at the [London School of Economics & Political Science](https://www.lse.ac.uk/). Prior to that, I was an Omidyar Fellow at the [Santa Fe Institute](https://www.santafe.edu/) (and am now a member of the external faculty). My PhD is from [Stanford University](https://anthropology.stanford.edu/), MSc from [University College London](https://www.ucl.ac.uk/anthropology/), and BA from [Brown University](https://www.brown.edu/). See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Academic-Staff/Eleanor-Power/Eleanor-Power).
+I am currently an assistant professor in the [Department of Methodology](https://www.lse.ac.uk/methodology) at the [London School of Economics & Political Science](https://www.lse.ac.uk/). Prior to that, I was an Omidyar Fellow at the [Santa Fe Institute](https://www.santafe.edu/) (and am now a member of the [external faculty](https://www.santafe.edu/people/profile/eleanor-power)). My PhD is from [Stanford University](https://anthropology.stanford.edu/), MSc from [University College London](https://www.ucl.ac.uk/anthropology/), and BA from [Brown University](https://www.brown.edu/). See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Academic-Staff/Eleanor-Power/Eleanor-Power).
 
 ---------------------
 
@@ -32,27 +32,27 @@ require(visNetwork)
 visNetwork(vis.nodes, vis.edges)
 ```
 
-* Accepted\. Cohen R. Simpson and **Eleanor A. Power**. Dynamics of cooperative networks as- sociated with gender among South Indian Tamils. *Philosophical Transactions of the Royal Society B: Biological Sciences.*
+* Accepted\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://arxiv.org/abs/2112.11396v1). *Journal of the Royal Statistical Society: Series A*.
 
-* 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0440). *Philosophical Transactions of the Royal Society B: Biological Sciences*, 377(1845), 20200440. 
+* Accepted\. Cohen R. Simpson and **Eleanor A. Power**. Dynamics of Cooperative Networks Associated with Gender Among South Indian Tamils. *Philosophical Transactions of the Royal Society B: Biological Sciences.*
 
-* 2021\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://arxiv.org/abs/2112.11396v1). [ArXiv preprint]
+* 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social Hierarchies and Social Networks in Humans](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0440). *Philosophical Transactions of the Royal Society B: Biological Sciences*, 377(1845), 20200440. 
 
-* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring reciprocity: double sampling, concordance, and network construction](https://www.cambridge.org/core/journals/network-science/article/measuring-reciprocity-double-sampling-concordance-and-network-construction/94B76C7BD1954EB5760835D36C53CB68). *Network Science*. 9(4):387-402. 
+* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring Reciprocity: Double Sampling, Concordance, and Network Construction](https://www.cambridge.org/core/journals/network-science/article/measuring-reciprocity-double-sampling-concordance-and-network-construction/94B76C7BD1954EB5760835D36C53CB68). *Network Science*. 9(4):387-402. 
 
 * 2021\. Francesca Giardini, Daniel Balliet, **Eleanor A. Power**, Szabolcs Számadó, and Károly Takács. [Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure](https://doi.org/10.1007/s12110-021-09419-3). *Human Nature*. 33:43-61.
 
-* 2021\. Szabolcs Számadó, Daniel Balliet, Francesca Giardini,  **Eleanor A. Power**, and Károly Takács. [The language of cooperation: reputation and honest signalling](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0286). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200286. [introduction to the [theme issue](https://royalsocietypublishing.org/toc/rstb/376/1838) of the same name.]
+* 2021\. Szabolcs Számadó, Daniel Balliet, Francesca Giardini,  **Eleanor A. Power**, and Károly Takács. [The Language of Cooperation: Reputation and Honest Signalling](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0286). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200286. [introduction to the [theme issue](https://royalsocietypublishing.org/toc/rstb/376/1838) of the same name.]
 
-* 2021\. Marion Dumas, Jessica Barker, and **Eleanor A. Power**. [When does reputation lie? Dynamic feedbacks between costly signals, social capital, and social prominence](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0298). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200298. [Code](https://github.com/eapower/when-does-reputation-lie).
+* 2021\. Marion Dumas, Jessica Barker, and **Eleanor A. Power**. [When Does Reputation Lie? Dynamic Feedbacks Between Costly Signals, Social Capital, and Social Prominence](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0298). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200298. [Code](https://github.com/eapower/when-does-reputation-lie).
 
-* 2021\. Károly Takács, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, **Eleanor A. Power**, and Rafael P. M. Wittek. [Networks of reliable reputation and cooperation: a review](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0297). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200297.
+* 2021\. Károly Takács, Jörg A. J. Gross, Martina Testori, Srebrenka Letina, Adam R. Kenny, **Eleanor A. Power**, and Rafael P. M. Wittek. [Networks of Reliable Reputation and Cooperation: A Review](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0297). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 376(1838):20200297.
 
-* 2021\. Nichola Raihani and **Eleanor A. Power**. [No good deed goes unpunished: the social costs of prosocial behaviour](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/no-good-deed-goes-unpunished-the-social-costs-of-prosocial-behaviour/31F863563C2231AEF7634996A0C4614F). *Evolutionary Human Sciences*. 3, E40. 
+* 2021\. Nichola Raihani and **Eleanor A. Power**. [No Good Deed Goes Unpunished: The Social Costs of Prosocial Behaviour](https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/no-good-deed-goes-unpunished-the-social-costs-of-prosocial-behaviour/31F863563C2231AEF7634996A0C4614F). *Evolutionary Human Sciences*. 3, E40. 
 
 * 2020\. Martina Contisciani, **Eleanor A. Power**, Caterina De Bacco. [Community Detection with Node Attributes in Multilayer Networks](https://www.nature.com/articles/s41598-020-72626-y). *Scientific Reports*. 10:15736.
 
-* 2020\. John H. Shaver, **Eleanor A. Power**, Benjamin G. Purzycki, Joseph Watts, Rebecca Sear, Mary K. Shenk, Richard Sosis, and Joseph A. Bulbulia. [Church attendance and alloparenting: An analysis of fertility, social support, and child development among English mothers](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0428). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 375(1805):20190428.
+* 2020\. John H. Shaver, **Eleanor A. Power**, Benjamin G. Purzycki, Joseph Watts, Rebecca Sear, Mary K. Shenk, Richard Sosis, and Joseph A. Bulbulia. [Church Attendance and Alloparenting: An Analysis of Fertility, Social Support, and Child Development Among English Mothers](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0428). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 375(1805):20190428.
 
 * 2019\. Andrew Berdahl, Christa Brelsford, Caterina De Bacco, Marion Dumas, Vanessa Ferdinand, Joshua A. Grochow, Laurent Hébert-Dufresne, Yoav Kallus, Christopher P. Kempes, Artemy Kolchinsky, Daniel B. Larremore, Eric Libby, **Eleanor A. Power**, Caitlin A. Stern, Brendan Tracey. [Dynamics of Beneficial Epidemics](https://www.nature.com/articles/s41598-019-50039-w). *Scientific Reports*. 9(1):15093. (More about this paper and the "72 Hours of Science" process [here](https://arxiv.org/abs/1604.02096) and [here](https://gizmodo.com/when-things-go-viral-and-everybody-wins-1769950969)).
 
@@ -95,6 +95,9 @@ visNetwork(vis.nodes, vis.edges)
 ---------------------
 
 ### Grants
+
+* Economic Networks and the Dynamics of Wealth Inequality: A Longitudinal Cross-Cultural Investigation.
+Funded by the US National Science Foundation Human Networks and Data Science program and the Cultural Anthropology program (with Monique Borgerhoff Mulder, Samuel Bowles, Matthew Jackson, Daniel Murphy & Daniel Redhead)
 
 * [Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality](https://gtr.ukri.org/projects?ref=ES%2FV006495%2F1). Funded by the UKRI Economic and Social Research Council Research Methods Development Grant (with Caterina De Bacco & Daniel Redhead)
 

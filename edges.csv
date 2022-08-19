@@ -57,7 +57,7 @@ HillaryYoung,PushingBack
 HillaryYoung,PositiveNegative
 JeanGabrielYoung,VIMuRe
 JeremyKoster,KinshipTies
-JeremyKoster,USNSF
+JeremyKoster,ENDOW1
 JeremyKoster,VIMuRe
 JessicaBarker,ContentCostContext
 JessicaBarker,WhenReputationLies
@@ -79,9 +79,9 @@ MartinaContisciani,MTCov
 MartinaContisciani,VIMuRe
 MartinaTestori,NetworksReputation
 MaryShenk,ChurchAttendance
-MatthewJackson,USNSF
+MatthewJackson,ENDOW1
 MikaelPuurtinen,ContentCostContext
-MoniqueBorgerhoffMulder,USNSF
+MoniqueBorgerhoffMulder,ENDOW1
 NicholaRaihani,NoGoodDeed
 RafaelWittek,NetworksReputation
 RebeccaBird,ProsocialSignaling
@@ -98,7 +98,7 @@ RobertQuinlan,KinshipTies
 RogerGuevara,PositiveNegative
 RussellGreaves,KinshipTies
 RuthMace,KinshipTies
-SamuelBowles,USNSF
+SamuelBowles,ENDOW1
 ShaneMacfarlan,KinshipTies
 SiobhanMattison,KinshipTies
 SrebrenkaLetina,NetworksReputation
@@ -111,3 +111,9 @@ WilliamDurham,ConservationAtTheEdge
 WilliamDurham,PushingBack
 WilliamDurham,PositiveNegative
 YoavKallus,BeneficialEpidemics
+MatthewJackson,ENDOW2
+MoniqueBorgerhoffMulder,ENDOW2
+SamuelBowles,ENDOW2
+CaterinaDeBacco,ENDOW2
+DanielRedhead,ENDOW2
+DanielMurphy,ENDOW2
