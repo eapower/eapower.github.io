@@ -96,7 +96,7 @@ visNetwork(vis.nodes, vis.edges)
 
 ### Grants
 
-* Economic Networks and the Dynamics of Wealth Inequality: A Longitudinal Cross-Cultural Investigation.
+* [Economic Networks and the Dynamics of Wealth Inequality: A Longitudinal Cross-Cultural Investigation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218861&HistoricalAwards=false). ([Part 1](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218861&HistoricalAwards=false), [Part 2](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218860&HistoricalAwards=false)).
 Funded by the US National Science Foundation Human Networks and Data Science program and the Cultural Anthropology program (with Monique Borgerhoff Mulder, Samuel Bowles, Matthew Jackson, Daniel Murphy & Daniel Redhead)
 
 * [Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality](https://gtr.ukri.org/projects?ref=ES%2FV006495%2F1). Funded by the UKRI Economic and Social Research Council Research Methods Development Grant (with Caterina De Bacco & Daniel Redhead)
