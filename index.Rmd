@@ -16,14 +16,6 @@ I am currently an assistant professor in the [Department of Methodology](https:/
 
 ---------------------
 
-<!--### New Theme Issue!
-
-Check out the new theme issue of *Philosophical Transactions of the Royal Society B: Biological Sciences*, "[The language of cooperation: reputation and honest signalling](https://royalsocietypublishing.org/toc/rstb/376/1838)" co-edited by Szabolcs Számadó, Daniel Balliet, Francesca Giardini, Károly Takács, and me, with the cover showing one of the villages that I work in:
-
-[![](ptrsb_front.png){width=30%}](https://royalsocietypublishing.org/toc/rstb/376/1838)
-
---------------------- -->
-
 ### Publications
 ```{r, message = FALSE, echo = FALSE, warning = FALSE}
 vis.nodes <- read.csv("nodes.csv", header = TRUE)
@@ -140,11 +132,11 @@ Researchers interested in getting access to the data used in the papers listed b
 
 ### Current Teaching
 
-* MY401. [Research Design for Studies in Digital Innovation](https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY401.htm)
+* MY401. [Research Design for Studies in Digital Innovation](https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2022_MY401.htm)
 
-* MY410. [Fundamentals of Research Design for International Development](https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY410.htm)
+* MY410. [Fundamentals of Research Design for International Development](https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2022_MY410.htm)
 
-* MY461. [Social Network Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2021_MY461.htm)
+* MY461. [Social Network Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2022_MY461.htm)
 
 ---------------------
 
@@ -157,7 +149,9 @@ London, WC2A 2AE
 
 e.a.power [at] lse.ac.uk
 
-[\@eleanorapower](https://twitter.com/eleanorapower)
+[Mastodon](https://sciences.social/@epower)
+
+[Twitter](https://twitter.com/eleanorapower)
 
 [Google Scholar](https://scholar.google.com/citations?user=1eWtkAQAAAAJ&hl=en&oi=ao)
 
@@ -165,4 +159,4 @@ e.a.power [at] lse.ac.uk
 
 [CV](https://github.com/eapower/eapower.github.io/blob/master/EPower_CV.pdf)
 
-My [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 3. (I [co-authored](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.042317) with Cris Moore, who [co-authored](https://epubs.siam.org/doi/abs/10.1137/050644896?casa_token=H0yHa-rMDbsAAAAA%3AkbEVLEf4fCuxHoMv1nex4Lt4uBdLdBG-IUyYo4_x_pd2O6mCajZXeh5s--LBc2UWMNCiSH0q&) with Leonard Schulman, who [co-authored](https://link.springer.com/article/10.1007/BF01215345) with Erdős.)
+My [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 3. (I [co-authored](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.042317) with [Cris Moore](https://en.wikipedia.org/wiki/Cristopher_Moore), who [co-authored](https://epubs.siam.org/doi/abs/10.1137/050644896?casa_token=H0yHa-rMDbsAAAAA%3AkbEVLEf4fCuxHoMv1nex4Lt4uBdLdBG-IUyYo4_x_pd2O6mCajZXeh5s--LBc2UWMNCiSH0q&) with [Leonard Schulman](https://en.wikipedia.org/wiki/Leonard_Schulman), who [co-authored](https://link.springer.com/article/10.1007/BF01215345) with [Erdős](https://en.wikipedia.org/wiki/Paul_Erd%C5%91s).)

@@ -20,11 +20,13 @@ visNetwork(vis.nodes, vis.edges)
 
 ```
 
-* 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social hierarchies and social networks in humans](https://psyarxiv.com/3upzy/). *Philosophical Transactions of the Royal Society B: Biological Sciences*. Accepted. 
+* Accepted\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://arxiv.org/abs/2112.11396v1). *Journal of the Royal Statistical Society: Series A*.
 
-* 2021\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://arxiv.org/abs/2112.11396v1). [ArXiv preprint]
+* 2022\. Cohen R. Simpson and **Eleanor A. Power**. [Dynamics of Cooperative Networks Associated with Gender Among South Indian Tamils](https://doi.org/10.1098/rstb.2021.0437). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 378(1868), 20210437. 
 
-* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring reciprocity: double sampling, concordance, and network construction](https://www.cambridge.org/core/journals/network-science/article/measuring-reciprocity-double-sampling-concordance-and-network-construction/94B76C7BD1954EB5760835D36C53CB68). *Network Science*. 1-16. doi:10.1017/nws.2021.18
+* 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social Hierarchies and Social Networks in Humans](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0440). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 377(1845), 20200440. 
+
+* 2021\. Elspeth Ready and **Eleanor A. Power**. [Measuring Reciprocity: Double Sampling, Concordance, and Network Construction](https://www.cambridge.org/core/journals/network-science/article/measuring-reciprocity-double-sampling-concordance-and-network-construction/94B76C7BD1954EB5760835D36C53CB68). *Network Science*. 9(4):387-402. 
 
 * 2021\. Francesca Giardini, Daniel Balliet, **Eleanor A. Power**, Szabolcs Számadó, and Károly Takács. Four Puzzles of Reputation-Based Cooperation: Content, Process, Honesty, and Structure. *Human Nature*. Accepted. 
 
