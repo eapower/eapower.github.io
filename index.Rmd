@@ -88,12 +88,13 @@ visNetwork(vis.nodes, vis.edges)
 
 ### Grants
 
-* [Economic Networks and the Dynamics of Wealth Inequality: A Longitudinal Cross-Cultural Investigation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218861&HistoricalAwards=false). ([Part 1](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218861&HistoricalAwards=false), [Part 2](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218860&HistoricalAwards=false)).
+* 2023 - 2027. 'Reputational poverty traps' and the reproduction of social inequality in South Asia and the world. Funded by a [Leverhulme Research Leadership Award](https://www.leverhulme.ac.uk/research-leadership-awards). 
+* 2022 - 2025. [Economic Networks and the Dynamics of Wealth Inequality: A Longitudinal Cross-Cultural Investigation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218861&HistoricalAwards=false). ([Part 1](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218861&HistoricalAwards=false), [Part 2](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2218860&HistoricalAwards=false)).
 Funded by the US National Science Foundation Human Networks and Data Science program and the Cultural Anthropology program (with Monique Borgerhoff Mulder, Samuel Bowles, Matthew Jackson, Daniel Murphy & Daniel Redhead)
 
-* [Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality](https://gtr.ukri.org/projects?ref=ES%2FV006495%2F1). Funded by the UKRI Economic and Social Research Council Research Methods Development Grant (with Caterina De Bacco & Daniel Redhead)
+* 2021 - 2022. [Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality](https://gtr.ukri.org/projects?ref=ES%2FV006495%2F1). Funded by the UKRI Economic and Social Research Council Research Methods Development Grant (with Caterina De Bacco & Daniel Redhead)
 
-* [The Effect of Social Networks on Inequality: A Longitudinal Cross-Cultural Investigation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1743019&HistoricalAwards=false). Funded by the US National Science Foundation Interdisciplinary Behavioral & Social Science Research Grant (with Jeremy Koster, Monique Borgerhoff Mulder, Samuel Bowles, & Matthew Jackson)
+* 2017 - 2022. [The Effect of Social Networks on Inequality: A Longitudinal Cross-Cultural Investigation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1743019&HistoricalAwards=false). Funded by the US National Science Foundation Interdisciplinary Behavioral & Social Science Research Grant (with Jeremy Koster, Monique Borgerhoff Mulder, Samuel Bowles, & Matthew Jackson)
 
 
 ---------------------
@@ -136,7 +137,7 @@ Researchers interested in getting access to the data used in the papers listed b
 
 * MY410. [Fundamentals of Research Design for International Development](https://www.lse.ac.uk/resources/calendar/courseGuides/MY/2022_MY410.htm)
 
-* MY461. [Social Network Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2022_MY461.htm)
+* MY361/461/561. [Social Network Analysis](http://www.lse.ac.uk/resources/calendar/courseGuides/MY/2022_MY461.htm)
 
 ---------------------
 
