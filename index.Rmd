@@ -10,7 +10,9 @@ I am an anthropologist studying how belief, practice, and identity interact with
 
 I do this with a combination of qualitative and quantitative methods, primary among which is social network analysis. My work is informed by signaling theory and the wider scholarship of human behavioral ecology. I am interested in the dynamics of social networks, especially relative to the factors that influence cooperation, competition, trust, and prestige. More generally, I am interested in investigating questions regarding: the role of religion in society, the interaction between costly signaling and cooperation, gender differences in prestige and social status, and the dynamics of punishment.
 
-I am also the co-director of the [ENDOW project](https://endowproject.github.io/), a collaborative network of social scientists undertaking cross-cultural comparative work. Right now, our main focus is a project investigating the dynamics of social networks and wealth inequality in small communities around the world.
+I am the co-director of the [ENDOW project](https://endowproject.github.io/), a collaborative network of social scientists undertaking cross-cultural comparative work. Right now, our main focus is a project investigating the dynamics of social networks and wealth inequality in small communities around the world, funded by the US National Science Foundation.
+
+I also lead the new [Rep²SI](https://rep2si.github.io/) project, funded by a Research Leadership Award from the [Leverhulme Trust](leverhulme.ac.uk/). 
 
 I am currently an assistant professor in the [Department of Methodology](https://www.lse.ac.uk/methodology) at the [London School of Economics & Political Science](https://www.lse.ac.uk/). Prior to that, I was an Omidyar Fellow at the [Santa Fe Institute](https://www.santafe.edu/) (and am now a member of the [external faculty](https://www.santafe.edu/people/profile/eleanor-power)). My PhD is from [Stanford University](https://anthropology.stanford.edu/), MSc from [University College London](https://www.ucl.ac.uk/anthropology/), and BA from [Brown University](https://www.brown.edu/). See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Academic-Staff/Eleanor-Power/Eleanor-Power).
 
@@ -24,9 +26,9 @@ require(visNetwork)
 visNetwork(vis.nodes, vis.edges)
 ```
 
-* Accepted\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://arxiv.org/abs/2112.11396v1). *Journal of the Royal Statistical Society: Series A*.
+* 2023\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://doi.org/10.1093/jrsssa/qnac004). *Journal of the Royal Statistical Society: Series A*.
 
-* 2022\. Cohen R. Simpson and **Eleanor A. Power**. [Dynamics of Cooperative Networks Associated with Gender Among South Indian Tamils](https://doi.org/10.1098/rstb.2021.0437). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 378(1868), 20210437. 
+* 2023\. Cohen R. Simpson and **Eleanor A. Power**. [Dynamics of Cooperative Networks Associated with Gender Among South Indian Tamils](https://doi.org/10.1098/rstb.2021.0437). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 378(1868), 20210437. 
 
 * 2022\. Daniel J. Redhead and **Eleanor A. Power**. [Social Hierarchies and Social Networks in Humans](https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0440). *Philosophical Transactions of the Royal Society B: Biological Sciences*. 377(1845), 20200440. 
 
