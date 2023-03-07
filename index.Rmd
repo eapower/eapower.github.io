@@ -4,7 +4,7 @@ output: html_document
 ---
 
 
-#### Assistant Professor, [Department of Methodology](http://www.lse.ac.uk/methodology), [London School of Economics & Political Science](https://www.lse.ac.uk/)
+#### Associate Professor, [Department of Methodology](http://www.lse.ac.uk/methodology), [London School of Economics & Political Science](https://www.lse.ac.uk/)
 
 I am an anthropologist studying how belief, practice, and identity interact with and shape interpersonal relationships. I look at how people work to discern something of the character, moral being, and intentions of their peers through their actions – particularly their religious action. And, I look at how people strive to communicate something of themselves to others, both in dramatic and in subtle ways. I want to know how such actions and reactions form the basis not only of people’s perceptions of one another, but also form the substance of their relationships and the emergent structure of their social world. When such bonds are crucial to our ability to navigate and get by in the world, this ultimately is an investigation into how people’s religious lives shape their social and economic lives as well.
 
@@ -14,7 +14,7 @@ I am the co-director of the [ENDOW project](https://endowproject.github.io/), a 
 
 I also lead the new [Rep²SI](https://rep2si.github.io/) project, funded by a Research Leadership Award from the [Leverhulme Trust](leverhulme.ac.uk/). 
 
-I am currently an assistant professor in the [Department of Methodology](https://www.lse.ac.uk/methodology) at the [London School of Economics & Political Science](https://www.lse.ac.uk/). Prior to that, I was an Omidyar Fellow at the [Santa Fe Institute](https://www.santafe.edu/) (and am now a member of the [external faculty](https://www.santafe.edu/people/profile/eleanor-power)). My PhD is from [Stanford University](https://anthropology.stanford.edu/), MSc from [University College London](https://www.ucl.ac.uk/anthropology/), and BA from [Brown University](https://www.brown.edu/). See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Academic-Staff/Eleanor-Power/Eleanor-Power).
+I am currently an associate professor in the [Department of Methodology](https://www.lse.ac.uk/methodology) at the [London School of Economics & Political Science](https://www.lse.ac.uk/). Prior to that, I was an Omidyar Fellow at the [Santa Fe Institute](https://www.santafe.edu/) (and am now a member of the [external faculty](https://www.santafe.edu/people/profile/eleanor-power)). My PhD is from [Stanford University](https://anthropology.stanford.edu/), MSc from [University College London](https://www.ucl.ac.uk/anthropology/), and BA from [Brown University](https://www.brown.edu/). See more at my [departmental website](http://www.lse.ac.uk/Methodology/People/Academic-Staff/Eleanor-Power/Eleanor-Power).
 
 ---------------------
 
