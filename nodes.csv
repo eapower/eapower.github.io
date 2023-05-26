@@ -1,111 +1,198 @@
 id,type.label,title,year,venue,color,shape
-RobertLosey,Author,Robert Losey,,Alberta,#74add1,dot
-DouglasMcCauley,Author,Douglas McCauley,,UCSB,#74add1,dot
-DouglasBird,Author,Douglas Bird,,Penn State,#74add1,dot
+AbigailEPage,Author,Abigail E Page,,LSHTM,#74add1,dot
+AdamHBoyette,Author,Adam H. Boyette,,Department of Human Behavior,#74add1,dot
+AdamKenny,Author,Adam Kenny,,Oxford,#74add1,dot
+AdamReynolds,Author,Adam Reynolds,,UNM,#74add1,dot
+AdrianVJaeggi,Author,Adrian V Jaeggi,,U Zurich,#74add1,dot
+AiyanaWillard,Author,Aiyana Willard,,Brunel,#74add1,dot
+AlexAlvergne,Author,Alex Alvergne,,Oxford,#74add1,dot
 AlexMcInturff,Author,Alex McInturff,,UC Berkley,#74add1,dot
-RobertDunbar,Author,Rob Dunbar,,Stanford,#74add1,dot
-WilliamDurham,Author,Bill Durham,,Stanford,#74add1,dot
-FiorenzaMicheli,Author,Fiorenza Micheli,,Stanford,#74add1,dot
-HillaryYoung,Author,Hillary Young,,UCSB,#74add1,dot
-RogerGuevara,Author,Roger Guevara,,INECOL,#74add1,dot
-GarethWilliams,Author,Gareth J. Williams,,Bangor,#74add1,dot
-RebeccaBird,Author,Rebecca Bliege Bird,,Penn State,#74add1,dot
-CaterinaDeBacco,Author,Caterina De Bacco,,MPI-IS,#74add1,dot
-DanielLarremore,Author,Daniel Larremore,,U Colorado,#74add1,dot
-CrisMoore,Author,Cris Moore,,SFI,#74add1,dot
-ElspethReady,Author,Elspeth Ready,,MPI-EVA,#74add1,dot
-JessicaBarker,Author,Jessica Barker,,Behavioural Insights,#74add1,dot
-StephenHeap,Author,Stephen Heap,,,#74add1,dot
-MikaelPuurtinen,Author,Mikael Puurtinen,,Jyvï¿½skylï¿½,#74add1,dot
-RichardSosis,Author,Richard Sosis,,UConn,#74add1,dot
-Shellfish,Article,"Shellfish Remains from the Par-Tee Site (35-CLT-20), Seaside, Oregon: Making Sense of a Biased Sample ",2005,Journal of Northwest Anthropology,#fdae61,square
-ConservationAtTheEdge,Article,Conservation at the Edges of the World ,2013,Biological Conservation,#fdae61,square
-PushingBack,Article,Pushing Back Against Paper-Park Pushers ,2014,Biological Conservation,#fdae61,square
-PositiveNegative,Article,Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems ,2014,Conservation Biology,#fdae61,square
-ProsocialSignaling,Article,Prosocial Signaling and Cooperation Among Martu Hunters ,2015,Evolution and Human Behavior,#fdae61,square
-Primacy,Article,The Primacy of Social Support ,2016,Religion Brain and Behavior,#fdae61,square
-RomanByzantine,Article,The Roman-Byzantine Baths Adjacent to the Great Temple ,2017,Petra Great Temple Volume 3,#fdae61,square
-DiscerningDevotion,Article,Discerning Devotion: Testing the Signaling Theory of Religion ,2017,Evolution and Human Behavior,#fdae61,square
-SocialSupport,Article,Social Support Networks and Religiosity in Rural South India ,2017,Nature Human Behaviour,#fdae61,square
-CommunityDetection,Article,"Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks ",2017,Physical Review E,#fdae61,square
-PraxisDoxa,Article,Praxis and Doxa: What a Focus on Ritual Can Offer Evolutionary Explanations of Religion ,2018,Religion Brain and Behavior,#fdae61,square
-WhyWageEarners,Article,"Why Wage-Earners Hunt: Food Sharing, Social Structure, & Influence in an Arctic Mixed Economy ",2018,Current Anthropology,#fdae61,square
-SocialSignificance,Article,The Social Significance of Subtle Signals ,2018,Nature Human Behaviour,#fdae61,square
-CollectiveRitual,Article,Collective Ritual and Social Support Networks in Rural South India ,2018,Proceedings of the Royal Society B,#fdae61,square
+AndreaBambergMigliano,Author,Andrea Bamberg Migliano,,U Zurich,#74add1,dot
+AndrewBerdahl,Author,Andrew Berdahl,,UWash,#74add1,dot
+AngelinaDeMarco,Author,Angelina DeMarco,,The University of Utah,#74add1,dot
+AnneEPusey,Author,Anne E Pusey,,Duke U,#74add1,dot
+AnnePisor,Author,Anne Pisor,,UCSB,#74add1,dot
+ArtemyKolchinsky,Author,Artemy Kolchinsky,,SFI,#74add1,dot
+BapuVaitla,Author,Bapu Vaitla,,Harvard,#74add1,dot
+BarrySHewlett,Author,Barry S Hewlett,,Washington State University,#74add1,dot
+BeneficialEpidemics,Article,Dynamics of Beneficial Epidemics,2019,Scientific Reports,#fdae61,square
+BenjaminPurzycki,Author,Benjamin G. Purzycki,,Aarhus U,#74add1,dot
+BrendanTracey,Author,Brendan Tracey,,Deep Mind,#74add1,dot
+BretBeheim,Author,Bret Beheim,,MPI-EVA,#74add1,dot
+BrianMWood,Author,Brian M Wood,,UCLA,#74add1,dot
+BrookeAScelza,Author,Brooke A Scelza,,UCLA,#74add1,dot
+BrucePWinterhalder,Author,Bruce P Winterhalder,,UC Davis,#74add1,dot
 BuildingBigness,Article,"Building Bigness: Reputation, Prominence, and Social Capital in Rural South India ",2018,American Anthropologist,#fdae61,square
+CaissaRevilla-Minaya,Author,Caissa Revilla-Minaya,,MPI-EVA,#74add1,dot
+CaitlinStern,Author,Caitlin Stern,,SFI,#74add1,dot
+CarmenCortez,Author,Carmen Cortez,,"Community Agroecology Network, Santa Cruz",#74add1,dot
+CaterinaDeBacco,Author,Caterina De Bacco,,MPI-IS,#74add1,dot
+ChelseaCarminito,Author,Chelsea Carminito,,University of Cincinnati,#74add1,dot
+ChristaBrelsford,Author,Christa Brelsford,,Oak Ridge,#74add1,dot
+ChristopherDGolden,Author,Christopher D. Golden,,Harvard T.H. Chan School of Public Health,#74add1,dot
+ChristopherKempes,Author,Christopher Kempes,,SFI,#74add1,dot
+ChristopherRvonRueden,Author,Christopher R von Rueden,,U Richmond,#74add1,dot
+ChunYiSum,Author,Chun-Yi Sum,,Boston U,#74add1,dot
+ChurchAttendance,Article,"Church Attendance and Alloparenting: An Analysis of Fertility, Social Support, and Child Development Among English Mothers",2020,Philosophical Transactions of the Royal Society B,#fdae61,square
+ClaireElMouden,Author,Claire El Mouden,,University of Oxford,#74add1,dot
+ClaudiaValeggia,Author,Claudia Valeggia,,Yale,#74add1,dot
+CodyRoss,Author,Cody Ross,,MPI-EVA,#74add1,dot
+CohenSimpson,Author,Cohen Simpson,,LSE,#74add1,dot
+CollectiveRitual,Article,Collective Ritual and Social Support Networks in Rural South India ,2018,Proceedings of the Royal Society B,#fdae61,square
+CommunityDetection,Article,"Community Detection, Link Prediction and Layer Interdependency in Multilayer Networks ",2017,Physical Review E,#fdae61,square
+ConservationAtTheEdge,Article,Conservation at the Edges of the World ,2013,Biological Conservation,#fdae61,square
 ContentCostContext,Article,"Content, Cost, and Context: A Framework for Understanding Human Signaling Systems ",2019,Evolutionary Anthropology,#fdae61,square
 CooperationBeyond,Article,"Cooperation Beyond Consanguinity: Post-Marital Residence, Delineations of Kin, and Social Support Among South Indian Tamils ",2019,Philosophical Transactions of the Royal Society B,#fdae61,square
-KinshipTies,Article,Kinship Ties Across the Lifespan in Human Communities,2019,Philosophical Transactions of the Royal Society B,#fdae61,square
-JeremyKoster,Author,Jeremy Koster,,U Cincinnati,#74add1,dot
-DieterLukas,Author,Dieter Lukas,,MPI-EVA,#74add1,dot
-DavidNolin,Author,David Nolin,,Penn State,#74add1,dot
-AlexAlvergne,Author,Alex Alvergne,,Oxford,#74add1,dot
-RuthMace,Author,Ruth Mace,,UCL,#74add1,dot
-CodyRoss,Author,Cody Ross,,MPI-EVA,#74add1,dot
-KarenKramer,Author,Karen Kramer,,Utah,#74add1,dot
-RussellGreaves,Author,Russell Greaves,,Utah,#74add1,dot
-MarkCaudell,Author,Mark Caudell,,WSU,#74add1,dot
-ShaneMacfarlan,Author,Shane Macfarlan,,Utah,#74add1,dot
-EricSchniter,Author,Eric Schniter,,Chapman,#74add1,dot
-RobertQuinlan,Author,Robert Quinlan,,WSU,#74add1,dot
-SiobhanMattison,Author,Siobhan Mattison,,UNM,#74add1,dot
-AdamReynolds,Author,Adam Reynolds,,UNM,#74add1,dot
-ChunYiSum,Author,Chun Yi-Sum,,UNM,#74add1,dot
-EricMassengill,Author,Eric Massengill,,UNM,#74add1,dot
-BeneficialEpidemics,Article,Dynamics of Beneficial Epidemics,2019,Scientific Reports,#fdae61,square
-AndrewBerdahl,Author,Andrew Berdahl,,UWash,#74add1,dot
-ChristaBrelsford,Author,Christa Brelsford,,Oak Ridge,#74add1,dot
-MarionDumas,Author,Marion Dumas,,LSE,#74add1,dot
-VanessaFerdinand,Author,Vanessa Ferdinand,,Melbourne School of Psychological Sciences,#74add1,dot
-JoshuaGrochow,Author,Joshua A. Grochow,,U Colorado,#74add1,dot
-LaurentHebertDufresne,Author,Laurent Hebert Dufresne,,U Vermont,#74add1,dot
-YoavKallus,Author,Yoav Kallus,,SFI,#74add1,dot
-ChristopherKempes,Author,Christopher Kempes,,SFI,#74add1,dot
-ArtemyKolchinsky,Author,Artemy Kolchinsky,,SFI,#74add1,dot
-EricLibby,Author,Eric Libby,,Umea U,#74add1,dot
-CaitlinStern,Author,Caitlin Stern,,SFI,#74add1,dot
-BrendanTracey,Author,Brendan Tracey,,Deep Mind,#74add1,dot
-MartinaContisciani,Author,Martina Contisciani,,MPI-IS,#74add1,dot
-MTCov,Article,Community detection with node attributes in multilayer networks,2020,Scientific Reports,#fdae61,square
-ChurchAttendance,Article,"Church Attendance and Alloparenting: An Analysis of Fertility, Social Support, and Child Development Among English Mothers",2020,Philosophical Transactions of the Royal Society B,#fdae61,square
-JohnShaver,Author,John Shaver,,U Otago,#74add1,dot
-BenjaminPurzycki,Author,Benjamin G. Purzycki,,Aarhus U,#74add1,dot
-JosephWatts,Author,Joseph Watts,,U Otago,#74add1,dot
-RebeccaSear,Author,Rebecca Sear,,LSHTM,#74add1,dot
-MaryShenk,Author,Mary K. Shenk,,Penn State,#74add1,dot
-JosephBulbulia,Author,Joseph A. Bulbulia,,U Auckland,#74add1,dot
-ENDOW1,Grant,The Effect of Social Networks on Inequality,,US NSF,#1b9e77,diamond
-UKRIESRC,Grant,Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality,,ESRC,#1b9e77,diamond
-MatthewJackson,Author,Matthew Jackson,,Stanford,#74add1,dot
-SamuelBowles,Author,Samuel Bowles,,SFI,#74add1,dot
-MoniqueBorgerhoffMulder,Author,Monique Borgerhoff Mulder,,UC Davis,#74add1,dot
+CorenLApicella,Author,Coren L. Apicella,,University of Pennsylvania,#74add1,dot
+CrisMoore,Author,Cris Moore,,SFI,#74add1,dot
+CristinaMoya,Author,Cristina Moya,,U British Columbia,#74add1,dot
+DanielBalliet,Author,Daniel Balliet,,VU Amsterdam,#74add1,dot
+DanielLarremore,Author,Daniel Larremore,,U Colorado,#74add1,dot
+DanielNettle,Author,Daniel Nettle,,Newcastle U,#74add1,dot
 DanielRedhead,Author,Daniel Redhead,,MPI-EVA,#74add1,dot
-WhenReputationLies,Article,When Does Reputation Lie?,2021,Philosophical Transactions of the Royal Society B,#fdae61,square
-NoGoodDeed,Article,No Good Deed Goes Unpunished,2021,Evolutionary Human Sciences,#fdae61,square
+DanielSmith,Author,Daniel Smith,,U Bristol,#74add1,dot
+DavidNolin,Author,David Nolin,,Penn State,#74add1,dot
+DiegoBaptista,Author,Diego Baptista,,MPI-IS,#74add1,dot
+DieterLukas,Author,Dieter Lukas,,MPI-EVA,#74add1,dot
+DimitrisXygalatas,Author,Dimitris Xygalatas,,U Connecticut,#74add1,dot
+DiscerningDevotion,Article,Discerning Devotion: Testing the Signaling Theory of Religion ,2017,Evolution and Human Behavior,#fdae61,square
+DouglasBird,Author,Douglas Bird,,Penn State,#74add1,dot
+DouglasMcCauley,Author,Douglas McCauley,,UCSB,#74add1,dot
+DynamicsGender,Article,Dynamics of Cooperative Networks Associated with Gender Among South Indian Tamils,2022,,#fdae61,square
+EckartVoland,Author,Eckart Voland,,,#74add1,dot
+EdmondSeabright,Author,Edmond Seabright,,U Mohammed 6,#74add1,dot
+ElspethReady,Author,Elspeth Ready,,MPI-EVA,#74add1,dot
+EmilyEWroblewski,Author,Emily E Wroblewski,,Washington U,#74add1,dot
+EmmaCohen,Author,Emma Cohen,,University of Oxford,#74add1,dot
+ENDOW1,Grant,The Effect of Social Networks on Inequality,,US NSF,#1b9e77,diamond
+ENDOW2,Grant,Economic Networks and the Dynamics of Wealth Inequality,,US NSF,#1b9e77,diamond
+EricAldenSmith,Author,Eric Alden Smith,,U Washington,#74add1,dot
+EricLibby,Author,Eric Libby,,Umea U,#74add1,dot
+EricMassengill,Author,Eric Massengill,,Boston U,#74add1,dot
+EricSchniter,Author,Eric Schniter,,Chapman,#74add1,dot
+FatemaZohora,Author,Fatema Zohora,,International Centre for Diarrhoeal Disease Research Bangladesh,#74add1,dot
+FeliciaCMadimenos,Author,Felicia C Madimenos,, CUNY,#74add1,dot
+FiorenzaMicheli,Author,Fiorenza Micheli,,Stanford,#74add1,dot
+FourPuzzles,Article,Four Puzzles of Reputation-Based Cooperation,2021,Human Nature,#fdae61,square
+FrancescaGiardini,Author,Francesca Giardini,,U Groningen,#74add1,dot
+FrankWMarlowe,Author,Frank W Marlowe,,U Cambridge,#74add1,dot
+GabrielaBorges,Authur,Gabriela Borges,,,#74add1,dot
+GarethWilliams,Author,Gareth J. Williams,,Bangor,#74add1,dot
+GianlucaGrimalda,Author,Gianluca Grimalda,,Kiel Institut fur Weltwirtschaft,#74add1,dot
+GregoryClark,Author,Gregory Clark,,University of California Davis,#74add1,dot
+HadisehSafdari,Author,Hadiseh Safdari,,MPI-IS,#74add1,dot
+HeidiColleran,Author,Heidi Colleran,,Max Planck Institute for Evolutionary Anthropology,#74add1,dot
+HelenElizabethDavis,Author,Helen Elizabeth Davis,,Harvard University,#74add1,dot
+HillardSKaplan,Author,Hillard S. Kaplan,,Chapman U,#74add1,dot
+HillaryYoung,Author,Hillary Young,,UCSB,#74add1,dot
+IreneGodoy,Author,Irene Godoy,,Radboud Universiteit,#74add1,dot
+JamsranjavBayarsaikhan,Author,Jamsranjav Bayarsaikhan,,Max-Planck-Institut fur Menschheitsgeschichte,#74add1,dot
+JanetHeadland,Author,Janet Headland,,Wycliffe,#74add1,dot
+JeanGabrielYoung,Author,Jean-Gabriel Young,,U Vermont,#74add1,dot
+JenniEPettay,Author,Jenni E Pettay,,Turun yliopisto,#74add1,dot
+JenniferESmith,Author,Jennifer E. Smith,,Mills College,#74add1,dot
+JeremyKoster,Author,Jeremy Koster,,U Cincinnati,#74add1,dot
+JessicaBarker,Author,Jessica Barker,,Behavioural Insights,#74add1,dot
+JoergGross,Author,Joerg Gross,,Leiden U,#74add1,dot
+JohnBunce,Author,John Bunce,,Max Planck Institute for Evolutionary Anthropology,#74add1,dot
+JohnPZiker,Author,John P. Ziker,,Boise State U,#74add1,dot
+JohnShaver,Author,John Shaver,,U Otago,#74add1,dot
+JonathanCardosoSilva,Author,Jonathan Cardoso Silva,,LSE,#74add1,dot
+JonathanSalerno,Author,Jonathan Salerno,,Colorado State,#74add1,dot
+JosephBulbulia,Author,Joseph A. Bulbulia,,U Auckland,#74add1,dot
+JosephLanning,Author,Joseph Lanning,,School for International Training Graduate Institute,#74add1,dot
+JosephWatts,Author,Joseph Watts,,U Otago,#74add1,dot
+JoshuaGrochow,Author,Joshua A. Grochow,,U Colorado,#74add1,dot
+JuliaKClark,Author,Julia K. Clark,,American Center for Mongolian Studies,#74add1,dot
+KaiPWillfuhr,Author,Kai P WillfŸhr,,MPI-DR,#74add1,dot
+KaraKSchroepfer-Walker,Author,Kara K Schroepfer-Walker,,Duke,#74add1,dot
+KarenBStrier,Author,Karen B. Strier,,U Wisconsin-Madison,#74add1,dot
+KarenKramer,Author,Karen Kramer,,Utah,#74add1,dot
+KarlMertens,Author,Karl Mertens,,Boise State University,#74add1,dot
+KarolyTakacs,Author,Karoly Takacs,,Linkï¿½ping U,#74add1,dot
+KathrineStarkweather,Author,Kathrine Starkweather,,U Illinois Chicago,#74add1,dot
+KathrynOths,Author,Kathryn Oths,,U Alabama,#74add1,dot
+KimHill,Author,Kim Hill,,Arizona State University,#74add1,dot
+KinshipTies,Article,Kinship Ties Across the Lifespan in Human Communities,2019,Philosophical Transactions of the Royal Society B,#fdae61,square
+LanguageCoop,Article,The Language of Cooperation,2021,Philosophical Transactions of the Royal Society B,#fdae61,square
+LaurentHebertDufresne,Author,Laurent Hebert Dufresne,,U Vermont,#74add1,dot
+LawrenceSSugiyama,Author,Lawrence S Sugiyama,,U Oregon,#74add1,dot
+LeverhulmeResearchLeadership,Grant,Reputational poverty traps and the reproduction of social inequality in South Asia and the world,,Leverhulme Research Leadership Award,#1b9e77,diamond
+LuisPacheco-Cobos,Author,Luis Pacheco-Cobos,,U Veracruzana,#74add1,dot
+MariaMagdalenaHurtado,Author,Mar’a Magdalena Hurtado,,Universidad de Granada,#74add1,dot
+MarionDumas,Author,Marion Dumas,,LSE,#74add1,dot
+MarkCaudell,Author,Mark Caudell,,Washington State University,#74add1,dot
+MarkDyble,Author,Mark Dyble,,University College London,#74add1,dot
+MartinaContisciani,Author,Martina Contisciani,,MPI-IS,#74add1,dot
+MartinaTestori,Author,Martina Testori,,VU Amsterdam,#74add1,dot
+MaryCTowner,Author,Mary C. Towner,,Oklahoma,#74add1,dot
+MaryShenk,Author,Mary K. Shenk,,Penn State,#74add1,dot
+MatthewJackson,Author,Matthew Jackson,,Stanford,#74add1,dot
+MeasuringReciprocity,Article,Measuring Reciprocity,2021,Network Science,#fdae61,square
+MelissaALiebert,Author,Melissa A Liebert,,Norther Arizona U,#74add1,dot
+MhairiAGibson,Author,Mhairi A Gibson,,University of Bristol,#74add1,dot
+MichaelDGurven,Author,Michael D Gurven,,University of California Santa Barbara,#74add1,dot
+MikaelPuurtinen,Author,Mikael Puurtinen,,JyvŠskylŠ,#74add1,dot
+MoniqueBorgerhoffMulder,Author,Monique Borgerhoff Mulder,,UC Davis,#74add1,dot
+MTCov,Article,Community detection with node attributes in multilayer networks,2020,Scientific Reports,#fdae61,square
 NetworksReputation,Article,Networks of Reliable Reputation and Cooperation,2021,Philosophical Transactions of the Royal Society B,#fdae61,square
 NicholaRaihani,Author,Nichola Raihani,,UCL,#74add1,dot
-KarolyTakacs,Author,Karoly Takacs,,Linkï¿½ping U,#74add1,dot
-JoergGross,Author,Joerg Gross,,Leiden U,#74add1,dot
-MartinaTestori,Author,Martina Testori,,VU Amsterdam,#74add1,dot
-SrebrenkaLetina,Author,Srebrenka Letina,,Linkï¿½ping U,#74add1,dot
-AdamKenny,Author,Adam Kenny,,Oxford,#74add1,dot
+NoGoodDeed,Article,No Good Deed Goes Unpunished,2021,Evolutionary Human Sciences,#fdae61,square
+NurulAlam,Author,Nurul Alam,,"International Centre for Diarrhoeal Disease Research, Bangladesh",#74add1,dot
+PatriciaDraper,Author,Patricia Draper,,University of Nebraska-Lincoln,#74add1,dot
+PaulHooper,Author,Paul Hooper,,Chapman U,#74add1,dot
+PaulLeslie,Author,Paul Leslie,,UNC Chapel Hill,#74add1,dot
+PositiveNegative,Article,Positive and Negative Effects of a Threatened Parrotfish on Reef Ecosystems ,2014,Conservation Biology,#fdae61,square
+PraxisDoxa,Article,Praxis and Doxa: What a Focus on Ritual Can Offer Evolutionary Explanations of Religion ,2018,Religion Brain and Behavior,#fdae61,square
+Primacy,Article,The Primacy of Social Support ,2016,Religion Brain and Behavior,#fdae61,square
+ProsocialSignaling,Article,Prosocial Signaling and Cooperation Among Martu Hunters ,2015,Evolution and Human Behavior,#fdae61,square
+PushingBack,Article,Pushing Back Against Paper-Park Pushers ,2014,Biological Conservation,#fdae61,square
+QuentinDAtkinson,Author,Quentin D Atkinson,,University of Auckland,#74add1,dot
 RafaelWittek,Author,Rafael Wittek,,U Groningen,#74add1,dot
-SocialHierarchies,Article,Social Hierarchies and Social Networks in Humans,2021,,#fdae61,square
-FourPuzzles,Article,Four Puzzles of Reputation-Based Cooperation,2021,Human Nature,#fdae61,square
-DanielBalliet,Author,Daniel Balliet,,VU Amsterdam,#74add1,dot
-SzabolcsSzamado,Author,Szabolcs Szamado,,BUTE,#74add1,dot
-FrancescaGiardini,Author,Francesca Giardini,,U Groningen,#74add1,dot
-LanguageCoop,Article,The Language of Cooperation,2021,Philosophical Transactions of the Royal Society B,#fdae61,square
-MeasuringReciprocity,Article,Measuring Reciprocity,2021,Network Science,#fdae61,square
-VIMuRe,Article,"Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data",2022,Journal of the Royal Statistical Society A,#fdae61,square
-JonathanCardosoSilva,Author,Jonathan Cardoso Silva,,LSE,#74add1,dot
-HadisehSafdari,Author,Hadiseh Safdari,,MPI-IS,#74add1,dot
-DiegoBaptista,Author,Diego Baptista,,MPI-IS,#74add1,dot
-GabrielaBorges,Authur,Gabriela Borges,,,#74add1,dot
-TracySweet,Author,Tracy Sweet,,U Maryland,#74add1,dot
-JeanGabrielYoung,Author,Jean-Gabriel Young,,U Vermont,#74add1,dot
+RebeccaBird,Author,Rebecca Bliege Bird,,Penn State,#74add1,dot
+RebeccaSear,Author,Rebecca Sear,,LSHTM,#74add1,dot
 RichardMcElreath,Author,Richard McElreath,,MPI-EVA,#74add1,dot
-CohenSimpson,Author,Cohen Simpson,,LSE,#74add1,dot
-DynamicsGender,Article,Dynamics of Cooperative Networks Associated with Gender Among South Indian Tamils,2022,,#fdae61,square
-ENDOW2,Grant,Economic Networks and the Dynamics of Wealth Inequality,,US NSF,#1b9e77,diamond
-LeverhulmeResearchLeadership,Grant,"Reputational poverty traps" and the reproduction of social inequality in South Asia and the world,,Leverhulme Research Leadership Award,#1b9e77,diamond
+RichardSosis,Author,Richard Sosis,,UConn,#74add1,dot
+RitaAMcNamara,Author,Rita A McNamara,,U Auckland,#74add1,dot
+RiuzheLiu,Author,Riuzhe Liu,,Boston U,#74add1,dot
+RobertDunbar,Author,Rob Dunbar,,Stanford,#74add1,dot
+RobertLosey,Author,Robert Losey,,Alberta,#74add1,dot
+RobertoLizarralde,Author,Roberto Lizarralde,,Penn State,#74add1,dot
+RobertQuinlan,Author,Robert Quinlan,,WSU,#74add1,dot
+RogerGuevara,Author,Roger Guevara,,INECOL,#74add1,dot
+RomanByzantine,Article,The Roman-Byzantine Baths Adjacent to the Great Temple ,2017,Petra Great Temple Volume 3,#fdae61,square
+RussellGreaves,Author,Russell Greaves,,Utah,#74add1,dot
+RuthMace,Author,Ruth Mace,,UCL,#74add1,dot
+RyanSchacht,Author,Ryan Schacht,,East Carolina U,#74add1,dot
+SamuelBowles,Author,Samuel Bowles,,SFI,#74add1,dot
+SamuelSUrlacher,Author,Samuel S Urlacher,,Baylore,#74add1,dot
+SamuliHelle,Author,Samuli Helle,,Turun yliopisto,#74add1,dot
+SeanSDowney,Author,Sean S. Downey,,The Ohio State University,#74add1,dot
+SergeyGavrilets,Author,Sergey Gavrilets,,U Tennessee Knoxville,#74add1,dot
+SeungYunOh,Author,Seung-Yun Oh,,Korea Insurance Research Institute,#74add1,dot
+ShaneAScaggs,Author,Shane A. Scaggs,,Ohio State,#74add1,dot
+ShaneMacfarlan,Author,Shane Macfarlan,,Utah,#74add1,dot
+SheinaLewLevy,Author,Sheina Lew-Levy,,Durham U,#74add1,dot
+Shellfish,Article,"Shellfish Remains from the Par-Tee Site,Author,35-CLT-20,#74add1,dot, Seaside, Oregon: Making Sense of a Biased Sample ",2005,Journal of Northwest Anthropology,#fdae61,square
+SiobhanMattison,Author,Siobhan Mattison,,UNM,#74add1,dot
+SocialHierarchies,Article,Social Hierarchies and Social Networks in Humans,2021,,#fdae61,square
+SocialSignificance,Article,The Social Significance of Subtle Signals ,2018,Nature Human Behaviour,#fdae61,square
+SocialSupport,Article,Social Support Networks and Religiosity in Rural South India ,2017,Nature Human Behaviour,#fdae61,square
+SrebrenkaLetina,Author,Srebrenka Letina,,Linkï¿½ping U,#74add1,dot
+StefaniACrabtree,Author,Stefani A. Crabtree,,Utah State University,#74add1,dot
+StephenBeckerman,Author,Stephen Beckerman,,Pennsylvania State University,#74add1,dot
+StephenHeap,Author,Stephen Heap,,,#74add1,dot
+SusanEPerry,Author,Susan E Perry,,UCLA,#74add1,dot
+SzabolcsSzamado,Author,Szabolcs Szamado,,BUTE,#74add1,dot
+TamiBlumenfield,Author,Tami Blumenfield,,The University of New Mexico,#74add1,dot
+ThomasNHeadland,Author,Thomas N. Headland,,SIL International,#74add1,dot
+TracySweet,Author,Tracy Sweet,,U Maryland,#74add1,dot
+UKRIESRC,Grant,Developing Latent Hierarchical Network Models for Cross-Cultural Comparisons of Social and Economic Inequality,,ESRC,#1b9e77,diamond
+VanessaFerdinand,Author,Vanessa Ferdinand,,Melbourne School of Psychological Sciences,#74add1,dot
+VIMuRe,Article,"Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data",2022,Journal of the Royal Statistical Society A,#fdae61,square
+VirpiLummaa,Author,Virpi Lummaa,,Turun yliopisto,#74add1,dot
+WhenReputationLies,Article,When Does Reputation Lie?,2021,Philosophical Transactions of the Royal Society B,#fdae61,square
+WhyWageEarners,Article,"Why Wage-Earners Hunt: Food Sharing, Social Structure, & Influence in an Arctic Mixed Economy ",2018,Current Anthropology,#fdae61,square
+WilliamDurham,Author,Bill Durham,,Stanford,#74add1,dot
+YoavKallus,Author,Yoav Kallus,,SFI,#74add1,dot
+ReproductiveInequality,Article,Reproductive Inequality in Humans and Other Mammals,2023,PNAS,#fdae61,square
