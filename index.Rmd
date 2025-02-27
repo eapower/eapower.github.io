@@ -26,6 +26,8 @@ require(visNetwork)
 visNetwork(vis.nodes, vis.edges)
 ```
 
+* 2025\. Martina Contisciani, Marius Hobbhahn, **Eleanor A. Power**, Philipp Hennig, and Caterina De Bacco. [Flexible inference in heterogeneous and attributed multilayer networks](https://academic.oup.com/pnasnexus/article/4/1/pgaf005/7950749). *PNAS Nexus*, 4(1), pgaf005. 
+
 * 2023\. Cody T. Ross, Paul L. Hooper, Jennifer E. Smith, Adrian V. Jaeggi, Eric Alden Smith, Sergey Gavrilets, Fatema tuz Zohora, John Ziker, Dimitris Xygalatas, Emily E. Wroblewski, Brian Wood, Bruce Winterhalder, Kai P. Willführ, Aiyana K. Willard, Kara Walker, Christopher von Rueden, Eckart Voland, Claudia Valeggia, Bapu Vaitla, Samuel Urlacher, Mary Towner, Chun-Yi Sum, Lawrence S. Sugiyama, Karen B. Strier, Kathrine Starkweather, Daniel Major-Smith, Mary Shenk, Rebecca Sear, Ed Seabright, Ryan Schacht, Brooke Scelza, Shane Scaggs, Jonathan Salerno, Caissa Revilla-Minaya, Daniel Redhead, Anne Pusey, Benjamin Grant Purzycki, **Eleanor A. Power**, Anne Pisor, Jenni Pettay, Susan Perry, Abigail E. Page, Luis Pacheco-Cobos, Kathryn Oths, Seung-Yun Ohb, David Nolin, Daniel Nettle, Cristina Moya, Andrea Bamberg Migliano, Karl J. Mertens, Rita A. McNamara, Richard McElreath, Siobhan Mattison, Eric Massengill, Frank Marlowe, Felicia Madimenos, Shane Macfarlan, Virpi Lummaa, Roberto Lizarralde, Ruizhe Liu, Melissa A. Liebert, Sheina Lew-Levy, Paul Leslie, Joseph Lanning, Karen Kramer, Jeremy Koster, Hillard S. Kaplan, Bayarsaikhan Jamsranjav, A. Magdalena Hurtado, Kim Hill, Barry Hewlett, Samuli Helle, Thomas Headland, Janet Headland, Michael Gurven, Gianluca Grimalda, Russell Greaves, Christopher D. Golden, Irene Godoy, Mhairi Gibson, Claire El Mouden, Mark Dyble, Patricia Draper, Sean Downey, Angelina L. DeMarco, Helen Elizabeth Davis, Stefani Crabtree, Carmen Cortez, Heidi Colleran, Emma Cohen, Gregory Clark, Julia Clark, Mark A. Caudell, Chelsea E. Carminito, John Bunce, Adam Boyette, Samuel Bowles, Tami Blumenfield, Bret Beheim, Stephen Beckerman, Quentin Atkinson, Coren Apicella, Nurul Alam, and Monique Borgerhoff Mulder. [Reproductive inequality in humans and other mammals](https://www.pnas.org/doi/10.1073/pnas.2220124120). *Proceedings of the National Academy of Science.* 120 (22), e2220124120. 
 
 * 2023\. Caterina De Bacco, Martina Contisciani, Jonathan Cardoso-Silva, Hadiseh Safdari, Diego Baptista, Tracy Sweet, Jean-Gabriel Young, Jeremy Koster, Cody T. Ross, Richard McElreath, Daniel Redhead, and **Eleanor A. Power**. [Latent Network Models to Account for Noisy, Multiply-Reported Social Network Data](https://doi.org/10.1093/jrsssa/qnac004). *Journal of the Royal Statistical Society: Series A*. qnac004.
@@ -122,6 +124,8 @@ Researchers interested in getting access to the data used in the papers listed b
 * Code repository for [MultiTensor](https://github.com/cdebacco/MultiTensor)
 
 * Code repository for [MTCov](https://github.com/mcontisc/MTCOV)
+
+* Code repository for [PIHAM](https://github.com/mcontisc/PIHAM)
 
 * [ERGM predictions and GWESP](https://eehh-stanford.github.io/SNA-workshop/ergm-predictions.html)
 
